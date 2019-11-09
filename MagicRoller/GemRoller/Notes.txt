@@ -1,0 +1,37 @@
+﻿Dice 
+01 -20 
+21 -35 
+36-40 
+41 -45 
+46-48 
+49-51 
+52-54 
+55-57 
+58-60 
+61 -75 
+76-86 
+87-00 
+
+Results 
+
+Potions (A,) 
+Scrolls (B.) 
+Rings (C.) 
+Rods, Staves & Wands (D.) 
+MisceIlaneousMagic (E.l.) 
+Miscellaneous Magic (E.2.) 
+Miscellaneous magic (E.3.) 
+Miscellaneous Magic (E.4.) 
+Miscellaneous Magic (E.5.) 
+Armor & Shields (F.) 
+Swords (G.) 
+Miscellaneous Weapons (H.)
+
+,
+        {
+          "LowRoll": ,
+          "HighRoll": ,
+          "Name": ,
+          "Experience": ,
+          "Price":
+        }

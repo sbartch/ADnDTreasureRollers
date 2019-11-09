@@ -1,0 +1,67 @@
+﻿{
+  "JewelryClasses": [
+    {
+      "Class": 0,
+      "Type": "Ivory or Wrought Silver",
+      "LowRoll": 1,
+      "HighRoll": 10,
+      "DieType": 10,
+      "DieCount": 1,
+      "DieMultiplier": 100
+    },
+    {
+      "Class": 1,
+      "Type": "Wrought Silver and Gold",
+      "LowRoll": 11,
+      "HighRoll": 20,
+      "DieType": 6,
+      "DieCount": 2,
+      "DieMultiplier": 100
+    },
+    {
+      "Class": 2,
+      "Type": "Wrought Gold",
+      "LowRoll": 21,
+      "HighRoll": 40,
+      "DieType": 6,
+      "DieCount": 3,
+      "DieMultiplier": 100
+    },
+    {
+      "Class": 3,
+      "Type": "Jade, Coral, Or Wrought Platinum",
+      "LowRoll": 41,
+      "HighRoll": 50,
+      "DieType": 6,
+      "DieCount": 5,
+      "DieMultiplier": 100
+    },
+    {
+      "Class": 4,
+      "Type": "Silver w/Gems",
+      "LowRoll": 51,
+      "HighRoll": 70,
+      "DieType": 6,
+      "DieCount": 1,
+      "DieMultiplier": 1000
+    },
+    {
+      "Class": 5,
+      "Type": "Gold w/Gems",
+      "LowRoll": 71,
+      "HighRoll": 90,
+      "DieType": 4,
+      "DieCount": 2,
+      "DieMultiplier": 1000
+    },
+    {
+      "Class": 6,
+      "Type": "Platinum w/Gems",
+      "LowRoll": 91,
+      "HighRoll": 100,
+      "DieType": 6,
+      "DieCount": 2,
+      "DieMultiplier": 1000
+    }
+  ]
+}

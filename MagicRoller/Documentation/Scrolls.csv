@@ -1,0 +1,25 @@
+01-10,1 spell,1-4,variable
+11-16,1 spell,1-6,variable
+17-19,1 spell,2-9 or 2-7*,variable
+20-24,2 spells,1-4,variable
+25-27,2 spells,1-8 or 1-6',variable
+28-32,3 spells,1 -4,variable
+33-35,3 spells,2-9 or 2-7*,variable
+36-39,4 spells,1-6,variable
+40-42,4 spells,1-8 or 1-6',variable
+43-46,5 spells,1-6,variable
+47-49,5 spells,1-8 or 1-6',variable
+50-52,6 spells,1-8,variable
+53-54,6 spells,3-8  or 3-6,variable
+55-57,7 spells,1-8,variable
+58-59,7 spells,2-9,variable
+60,7 spells,4-9 or 4-7' ,variable
+61 -62,Protection - Demons,"(2,500 x.P.)",variable
+63-64,Protection - Devils,"(2,500 x.P.)",variable
+65-70,Protection - Elementals,"(1,500 x.P.)",variable
+71 -76,Protection - Lyconthropes,(1.000X.P.),variable
+77-82,Protection -Magic,"(1,500 X.P.)",variable
+83-87,Protection - Petrification,"(2,000 X.P.)",variable
+88-92,Protection - Possession,"(2,000 X.P.)",variable
+93-97,Protection - Undead,"(1,500X.P.)",variable
+98-100,Curse**,***,***

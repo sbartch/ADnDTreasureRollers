@@ -1,0 +1,799 @@
+﻿{
+  "TreasureTypes": [
+    {
+      "Type": "A",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 25,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 30,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 35,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gold",
+          "Percent": 40,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 25,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 100
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 60,
+          "DieType": 10,
+          "DieCount": 4,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 50,
+          "DieType": 10,
+          "DieCount": 3,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Any 3",
+          "Percent": 30,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "B",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 50,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 25,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 25,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gold",
+          "Percent": 25,
+          "DieType": 3,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 0,
+          "DieType": 0,
+          "DieCount": 0,
+          "DieMultiplier": 0
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 30,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 20,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Sword, Armor, Or Misc Weapon",
+          "Percent": 10,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "C",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 20,
+          "DieType": 12,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 30,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 10,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 25,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 20,
+          "DieType": 3,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Any 2",
+          "Percent": 10,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "D",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 10,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 15,
+          "DieType": 12,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 15,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gold",
+          "Percent": 50,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 30,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 25,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Any 2 plus 1 Potion",
+          "Percent": 15,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "E",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 5,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 25,
+          "DieType": 12,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 25,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gold",
+          "Percent": 25,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 30,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 10,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Any 3 + 1 Scroll",
+          "Percent": 25,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "F",
+      "Row": [
+        {
+          "Treasure": "Silver",
+          "Percent": 10,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 15,
+          "DieType": 12,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gold",
+          "Percent": 40,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 35,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 100
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 20,
+          "DieType": 10,
+          "DieCount": 3,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 10,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "1 potion, 1 scroll, +Any 3 except swords/misc weapons",
+          "Percent": 30,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "G",
+      "Row": [
+        {
+          "Treasure": "Gold",
+          "Percent": 50,
+          "DieType": 4,
+          "DieCount": 10,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 50,
+          "DieType": 20,
+          "DieCount": 1,
+          "DieMultiplier": 100
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 30,
+          "DieType": 4,
+          "DieCount": 5,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 25,
+          "DieType": 10,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Any 4, plus 1 scroll",
+          "Percent": 35,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "H",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 25,
+          "DieType": 6,
+          "DieCount": 5,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 40,
+          "DieType": 100,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 40,
+          "DieType": 4,
+          "DieCount": 10,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gold",
+          "Percent": 55,
+          "DieType": 6,
+          "DieCount": 10,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 25,
+          "DieType": 10,
+          "DieCount": 5,
+          "DieMultiplier": 100
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 50,
+          "DieType": 100,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 50,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 10
+        },
+        {
+          "Treasure": "Any 4 plus 1 potion & 1 scroll",
+          "Percent": 15,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "I",
+      "Row": [
+        {
+          "Treasure": "Platinum",
+          "Percent": 30,
+          "DieType": 6,
+          "DieCount": 3,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 55,
+          "DieType": 10,
+          "DieCount": 2,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 50,
+          "DieType": 12,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Any 1",
+          "Percent": 15,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "J",
+      "Row": [
+        {
+          "Treasure": "Copper per Individual",
+          "Percent": 100,
+          "DieType": 8,
+          "DieCount": 3,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "K",
+      "Row": [
+        {
+          "Treasure": "Silver per Individual",
+          "Percent": 100,
+          "DieType": 6,
+          "DieCount": 3,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "L",
+      "Row": [
+        {
+          "Treasure": "Electrum per Individual",
+          "Percent": 100,
+          "DieType": 6,
+          "DieCount": 2,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "M",
+      "Row": [
+        {
+          "Treasure": "Gold per Individual",
+          "Percent": 100,
+          "DieType": 4,
+          "DieCount": 2,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "N",
+      "Row": [
+        {
+          "Treasure": "Platinum per Individual",
+          "Percent": 100,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "O",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 25,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 20,
+          "DieType": 3,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        }
+      ]
+    },
+    {
+      "Type": "P",
+      "Row": [
+        {
+          "Treasure": "Silver",
+          "Percent": 30,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 25,
+          "DieType": 2,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        }
+      ]
+    },
+    {
+      "Type": "Q",
+      "Row": [
+        {
+          "Treasure": "Gems",
+          "Percent": 50,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "R",
+      "Row": [
+        {
+          "Treasure": "Gold",
+          "Percent": 40,
+          "DieType": 4,
+          "DieCount": 2,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 50,
+          "DieType": 6,
+          "DieCount": 10,
+          "DieMultiplier": 100
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 55,
+          "DieType": 8,
+          "DieCount": 4,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 45,
+          "DieType": 12,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "S",
+      "Row": [
+        {
+          "Treasure": "Potions",
+          "Percent": 40,
+          "DieType": 4,
+          "DieCount": 2,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "T",
+      "Row": [
+        {
+          "Treasure": "Scrolls",
+          "Percent": 50,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "U",
+      "Row": [
+        {
+          "Treasure": "Gems",
+          "Percent": 90,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 10
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 80,
+          "DieType": 6,
+          "DieCount": 5,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "1 of each magic EXCLUDING potions & scrolls",
+          "Percent": 70,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "V",
+      "Row": [
+        {
+          "Treasure": "2 of each magic, excluding potions & scrolls",
+          "Percent": 85,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "W",
+      "Row": [
+        {
+          "Treasure": "Gold",
+          "Percent": 60,
+          "DieType": 6,
+          "DieCount": 5,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 15,
+          "DieType": 8,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 60,
+          "DieType": 8,
+          "DieCount": 10,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 50,
+          "DieType": 8,
+          "DieCount": 5,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "1 Map",
+          "Percent": 55,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "X",
+      "Row": [
+        {
+          "Treasure": "1 misc. magic plus 1 potion",
+          "Percent": 60,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    },
+    {
+      "Type": "Y",
+      "Row": [
+        {
+          "Treasure": "Gold",
+          "Percent": 70,
+          "DieType": 6,
+          "DieCount": 2,
+          "DieMultiplier": 1000
+        }
+      ]
+    },
+    {
+      "Type": "Z",
+      "Row": [
+        {
+          "Treasure": "Copper",
+          "Percent": 20,
+          "DieType": 3,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Silver",
+          "Percent": 25,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Electrum",
+          "Percent": 25,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Gold",
+          "Percent": 30,
+          "DieType": 4,
+          "DieCount": 1,
+          "DieMultiplier": 1000
+        },
+        {
+          "Treasure": "Platinum",
+          "Percent": 30,
+          "DieType": 6,
+          "DieCount": 1,
+          "DieMultiplier": 100
+        },
+        {
+          "Treasure": "Gems",
+          "Percent": 55,
+          "DieType": 6,
+          "DieCount": 10,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Jewelry",
+          "Percent": 50,
+          "DieType": 6,
+          "DieCount": 5,
+          "DieMultiplier": 1
+        },
+        {
+          "Treasure": "Any 3 Magic",
+          "Percent": 50,
+          "DieType": 1,
+          "DieCount": 1,
+          "DieMultiplier": 1
+        }
+      ]
+    }
+  ]
+}

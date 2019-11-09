@@ -1,0 +1,25 @@
+﻿<Window x:Class="TreasureRoller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreasureRoller"
+        mc:Ignorable="d"
+        Title="Treasure Roller" Height="450" Width="800"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Grid>
+        <ListView x:Name="TreasureListView" HorizontalAlignment="Left" Height="266" Margin="10,143,0,0" VerticalAlignment="Top" Width="572" 
+            DataContext="{Binding}" ItemsSource="{Binding MyCollection}" SelectionChanged="treasureListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="400" Header="Description" DisplayMemberBinding="{Binding Treasure}"/>
+                    <GridViewColumn Width="66" Header="Count" DisplayMemberBinding="{Binding Path=Count, StringFormat={}{0:N0}}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label x:Name="label" Content="Treasure Type(s) (e.g. A,B,D)" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="treasureTypes" HorizontalAlignment="Left" Height="23" Margin="45,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+        <Button x:Name="generateTreasure" Content="Generate Treasure" HorizontalAlignment="Left" Margin="22,79,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.506,-0.317" Click="generateTreasure_Click"/>
+        <Button x:Name="ButtonCopy" Content="Copy To Clipboard" HorizontalAlignment="Left" Margin="467,103,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopy_Click"/>
+    </Grid>
+</Window>

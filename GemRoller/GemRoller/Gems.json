@@ -1,0 +1,223 @@
+{
+  "GemsClasses":[
+    {
+      "Class": 0,
+      "Type": "Ornamental Stones",
+      "LowRoll": 1,
+      "HighRoll": 25,
+      "BaseValue": 10,
+      "GemDetails": [
+        {
+          "Name": "Azurite"
+        },
+        {
+          "Name": "Banded Agate"
+        },
+        {
+          "Name": "Blue Quartz"
+        },
+        {
+          "Name": "Eye Agate"
+        },
+        {
+          "Name": "Hematate"
+        },
+        {
+          "Name": "Lapis Lazuli"
+        },
+        {
+          "Name": "Malachite"
+        },
+        {
+          "Name": "Moss Agate"
+        },
+        {
+          "Name": "Obsidian"
+        },
+        {
+          "Name": "Rhodochrosite"
+        },
+        {
+          "Name": "Tiger Eye"
+        },
+        {
+          "Name": "Turquoise"
+        }
+      ]
+    },
+    {
+      "Class": 1,
+      "Type": "Semi-precious Stones",
+      "LowRoll": 26,
+      "HighRoll": 50,
+      "BaseValue": 50,
+      "GemDetails": [
+        {
+          "Name": "Bloodstone"
+        },
+        {
+          "Name": "Carnelian"
+        },
+        {
+          "Name": "Chalcedony"
+        },
+        {
+          "Name": "Citrine"
+        },
+        {
+          "Name": "Jasper"
+        },
+        {
+          "Name": "Moonstone"
+        },
+        {
+          "Name": "Onyx"
+        },
+        {
+          "Name": "Rock Crystal"
+        },
+        {
+          "Name": "Sardonyx"
+        },
+        {
+          "Name": "Smoky Quartz"
+        },
+        {
+          "Name": "Star Rose Quartz"
+        },
+        {
+          "Name": "Zircon"
+        }
+      ]
+    },
+    {
+      "Class": 2,
+      "Type": "Fancy Stones",
+      "LowRoll": 51,
+      "HighRoll": 70,
+      "BaseValue": 100,
+      "GemDetails": [
+        {
+          "Name": "Amber"
+        },
+        {
+          "Name": "Alexandrite"
+        },
+        {
+          "Name": "Amethyst"
+        },
+        {
+          "Name": "Chrysoberyl"
+        },
+        {
+          "Name": "Coral"
+        },
+        {
+          "Name": "Garnet (common)"
+        },
+        {
+          "Name": "Jade"
+        },
+        {
+          "Name": "Jet"
+        },
+        {
+          "Name": "Pearl (common)"
+        },
+        {
+          "Name": "Spinel (common)"
+        },
+        {
+          "Name": "Tourmaline"
+        }
+      ]
+    },
+    {
+      "Class": 3,
+      "Type": "Fancy Stones (precious)",
+      "LowRoll": 71,
+      "HighRoll": 90,
+      "BaseValue": 500,
+      "GemDetails": [
+        {
+          "Name": "Auquamarine"
+        },
+        {
+          "Name": "Garnet (exquisite)"
+        },
+        {
+          "Name": "Pearl (exquisite)"
+        },
+        {
+          "Name": "Peridot"
+        },
+        {
+          "Name": "Spinel (exquisite)"
+        },
+        {
+          "Name": "Topaz"
+        }
+      ]
+    },
+    {
+      "Class": 4,
+      "Type": "Gem Stones",
+      "LowRoll": 91,
+      "HighRoll": 99,
+      "BaseValue": 1000,
+      "GemDetails": [
+        {
+          "Name": "Black Opal"
+        },
+        {
+          "Name": "Emerald"
+        },
+        {
+          "Name": "Fire Opal"
+        },
+        {
+          "Name": "Opal"
+        },
+        {
+          "Name": "Oriental Amethys"
+        },
+        {
+          "Name": "Oriental Topaz"
+        },
+        {
+          "Name": "Sapphire"
+        },
+        {
+          "Name": "Star Ruby"
+        },
+        {
+          "Name": "Star Sapphire"
+        }
+      ]
+    },
+    {
+      "Class": 5,
+      "Type": "Gem Stones (Jewelry)",
+      "LowRoll": 100,
+      "HighRoll": 100,
+      "BaseValue": 5000,
+      "GemDetails": [
+        {
+          "Name": "Black Sapphire"
+        },
+        {
+          "Name": "Diamond"
+        },
+        {
+          "Name": "Jacinth"
+        },
+        {
+          "Name": "Oriental Emerald"
+        },
+        {
+          "Name": "Ruby"
+        }
+      ]
+    }
+  ]
+}

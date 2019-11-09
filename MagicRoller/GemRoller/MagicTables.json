@@ -1,0 +1,2973 @@
+{
+  "UseCategories": 
+    [
+      {
+        "UseClassName": "Any",
+        "ClassName": false,
+        "UseClassClasses": [
+          { "UseClass": 0 },
+          { "UseClass": 1 },
+          { "UseClass": 2 },
+          { "UseClass": 3 },
+          { "UseClass": 4 },
+          { "UseClass": 5 },
+          { "UseClass": 8 },
+          { "UseClass": 9 },
+          { "UseClass": 10 },
+          { "UseClass": 11 },
+          { "UseClass": 12 }
+        ]
+      },
+      {
+        "UseClassName": "Potions",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 0 }
+        ]
+      },
+      {
+        "UseClassName": "Scrolls",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 1 }
+        ]
+      },
+      {
+        "UseClassName": "Rings",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 2 }
+        ]
+      },
+      {
+        "UseClassName": "Rods, Staves, & Wands",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 3 }
+        ]
+      },
+      {
+        "UseClassName": "Miscellaneous Magic",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 4 },
+          { "UseClass": 5 },
+          { "UseClass": 6 },
+          { "UseClass": 7 },
+          { "UseClass": 8 }
+        ]
+      },
+      {
+        "UseClassName": "Armor & Shields",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 9 }
+        ]
+      },
+      {
+        "UseClassName": "Swords",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 10 }
+        ]
+      },
+      {
+        "UseClassName": "Miscellaneous Weapons",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 11 }
+        ]
+      },
+      {
+        "UseClassName": "Special",
+        "ClassName": true,
+        "UseClassClasses": [
+          { "UseClass": 12 }
+        ]
+      }
+    ],
+  "MagicItems": [
+    {
+      "Class": 0,
+      "LowRoll": 1,
+      "HighRoll": 20,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 3,
+          "Name": "animal Control*",
+          "Experience": "250",
+          "Price": "400"
+        },
+        {
+          "LowRoll": 4,
+          "HighRoll": 6,
+          "Name": "Cloiraudience",
+          "Experience": "250",
+          "Price": "400"
+        },
+        {
+          "LowRoll": 7,
+          "HighRoll": 9,
+          "Name": "Cloirvoyonce",
+          "Experience": "300",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 10,
+          "HighRoll": 12,
+          "Name": "Climbing",
+          "Experience": "300",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 13,
+          "HighRoll": 15,
+          "Name": "De Ius ion * *",
+          "Experience": "",
+          "Price": "150"
+        },
+        {
+          "LowRoll": 16,
+          "HighRoll": 18,
+          "Name": "Dim in ution",
+          "Experience": "300",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 19,
+          "HighRoll": 20,
+          "Name": "Dragon Control*",
+          "Experience": "500-1 ,000",
+          "Price": "5,000-9.000"
+        },
+        {
+          "LowRoll": 21,
+          "HighRoll": 23,
+          "Name": "ESP",
+          "Experience": "500",
+          "Price": "850"
+        },
+        {
+          "LowRoll": 24,
+          "HighRoll": 26,
+          "Name": "Extra-Healing",
+          "Experience": "400",
+          "Price": "800"
+        },
+        {
+          "LowRoll": 27,
+          "HighRoll": 29,
+          "Name": "Fire Resistonce",
+          "Experience": "250",
+          "Price": "400"
+        },
+        {
+          "LowRoll": 30,
+          "HighRoll": 32,
+          "Name": "Flying",
+          "Experience": "500",
+          "Price": "750"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 34,
+          "Name": "Goseous Form",
+          "Experience": "300",
+          "Price": "400"
+        },
+        {
+          "LowRoll": 35,
+          "HighRoll": 36,
+          "Name": "Giant Control*",
+          "Experience": "400-900",
+          "Price": "1,000-6,000"
+        },
+        {
+          "LowRoll": 37,
+          "HighRoll": 39,
+          "Name": "GiontStrength* (F)",
+          "Experience": "500-750",
+          "Price": "900-1.400"
+        },
+        {
+          "LowRoll": 40,
+          "HighRoll": 41,
+          "Name": "Growth",
+          "Experience": "250",
+          "Price": "300"
+        },
+        {
+          "LowRoll": 42,
+          "HighRoll": 47,
+          "Name": "Healing",
+          "Experience": "200",
+          "Price": "400"
+        },
+        {
+          "LowRoll": 48,
+          "HighRoll": 49,
+          "Name": "Heroism (F)",
+          "Experience": "300",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 50,
+          "HighRoll": 51,
+          "Name": "Human Control*",
+          "Experience": "500",
+          "Price": "900"
+        },
+        {
+          "LowRoll": 52,
+          "HighRoll": 54,
+          "Name": "Invisibility",
+          "Experience": "250",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 55,
+          "HighRoll": 57,
+          "Name": "lnvulnerobility (F)",
+          "Experience": "350",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 58,
+          "HighRoll": 60,
+          "Name": "Levitation",
+          "Experience": "250",
+          "Price": "400"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 63,
+          "Name": "Longevity",
+          "Experience": "500",
+          "Price": "1 ,000"
+        },
+        {
+          "LowRoll": 64,
+          "HighRoll": 66,
+          "Name": "Oil of Etherealness",
+          "Experience": "600",
+          "Price": "1.5"
+        },
+        {
+          "LowRoll": 67,
+          "HighRoll": 69,
+          "Name": "Oil of Slipperiness",
+          "Experience": "400",
+          "Price": "750"
+        },
+        {
+          "LowRoll": 70,
+          "HighRoll": 72,
+          "Name": "Philter of Love",
+          "Experience": "200",
+          "Price": "300"
+        },
+        {
+          "LowRoll": 73,
+          "HighRoll": 75,
+          "Name": "Philter of Persuasiveness",
+          "Experience": "400",
+          "Price": "850"
+        },
+        {
+          "LowRoll": 76,
+          "HighRoll": 78,
+          "Name": "Plont Control",
+          "Experience": "250",
+          "Price": "300"
+        },
+        {
+          "LowRoll": 79,
+          "HighRoll": 81,
+          "Name": "Polymorph (self)",
+          "Experience": "200",
+          "Price": "350"
+        },
+        {
+          "LowRoll": 82,
+          "HighRoll": 84,
+          "Name": "Poison**",
+          "Experience": "***",
+          "Price": "***"
+        },
+        {
+          "LowRoll": 85,
+          "HighRoll": 87,
+          "Name": "Speed",
+          "Experience": "200",
+          "Price": "450"
+        },
+        {
+          "LowRoll": 88,
+          "HighRoll": 90,
+          "Name": "Super-Heroism (F)",
+          "Experience": "450",
+          "Price": "750"
+        },
+        {
+          "LowRoll": 91,
+          "HighRoll": 93,
+          "Name": "Sweet Water",
+          "Experience": "200",
+          "Price": "250"
+        },
+        {
+          "LowRoll": 94,
+          "HighRoll": 96,
+          "Name": "Treosure Finding",
+          "Experience": "600",
+          "Price": "2.000"
+        },
+        {
+          "LowRoll": 97,
+          "HighRoll": 97,
+          "Name": "Undead Control",
+          "Experience": "700",
+          "Price": "2,500"
+        },
+        {
+          "LowRoll": 98,
+          "HighRoll": 100,
+          "Name": "Woter Breathing",
+          "Experience": "400",
+          "Price": "900"
+        }
+
+      ]
+    },
+    {
+      "Class": 1,
+      "LowRoll": 21,
+      "HighRoll": 35,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 10,
+          "Name": "1 spell",
+          "Experience": "1-4",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 11,
+          "HighRoll": 16,
+          "Name": "1 spell",
+          "Experience": "1-6",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 17,
+          "HighRoll": 19,
+          "Name": "1 spell",
+          "Experience": "2-9 or 2-7*",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 20,
+          "HighRoll": 24,
+          "Name": "2 spells",
+          "Experience": "1-4",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 25,
+          "HighRoll": 27,
+          "Name": "2 spells",
+          "Experience": "1-8 or 1-6'",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 32,
+          "Name": "3 spells",
+          "Experience": "1 -4",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 35,
+          "Name": "3 spells",
+          "Experience": "2-9 or 2-7*",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 39,
+          "Name": "4 spells",
+          "Experience": "1-6",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 40,
+          "HighRoll": 42,
+          "Name": "4 spells",
+          "Experience": "1-8 or 1-6'",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 43,
+          "HighRoll": 46,
+          "Name": "5 spells",
+          "Experience": "1-6",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 47,
+          "HighRoll": 49,
+          "Name": "5 spells",
+          "Experience": "1-8 or 1-6'",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 50,
+          "HighRoll": 52,
+          "Name": "6 spells",
+          "Experience": "1-8",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 53,
+          "HighRoll": 54,
+          "Name": "6 spells",
+          "Experience": "3-8  or 3-6",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 55,
+          "HighRoll": 57,
+          "Name": "7 spells",
+          "Experience": "1-8",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 58,
+          "HighRoll": 59,
+          "Name": "7 spells",
+          "Experience": "2-9",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 60,
+          "HighRoll": 60,
+          "Name": "7 spells",
+          "Experience": "4-9 or 4-7'",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 62,
+          "Name": "Protection - Demons",
+          "Experience": "(2,500 x.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 63,
+          "HighRoll": 64,
+          "Name": "Protection - Devils",
+          "Experience": "(2,500 x.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 65,
+          "HighRoll": 70,
+          "Name": "Protection - Elementals",
+          "Experience": "(1,500 x.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 71,
+          "HighRoll": 76,
+          "Name": "Protection - Lyconthropes",
+          "Experience": "(1.000X.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 77,
+          "HighRoll": 82,
+          "Name": "Protection -Magic",
+          "Experience": "(1,500 X.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 83,
+          "HighRoll": 87,
+          "Name": "Protection - Petrification",
+          "Experience": "(2,000 X.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 88,
+          "HighRoll": 92,
+          "Name": "Protection - Possession",
+          "Experience": "(2,000 X.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 93,
+          "HighRoll": 97,
+          "Name": "Protection - Undead",
+          "Experience": "(1,500X.P.)",
+          "Price": "variable"
+        },
+        {
+          "LowRoll": 98,
+          "HighRoll": 100,
+          "Name": "Curse**",
+          "Experience": "***",
+          "Price": "***"
+        }
+
+      ]
+    },
+    {
+      "Class": 2,
+      "LowRoll": 36,
+      "HighRoll": 40,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 6,
+          "Name": "Contrariness",
+          "Experience": "***",
+          "Price": "1 ,000"
+        },
+        {
+          "LowRoll": 9,
+          "HighRoll": 12,
+          "Name": "Delusion",
+          "Experience": "***",
+          "Price": "2,000"
+        },
+        {
+          "LowRoll": 13,
+          "HighRoll": 14,
+          "Name": "Djinni Summoning$",
+          "Experience": "3000",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 15,
+          "HighRoll": 15,
+          "Name": "Elemental Command",
+          "Experience": "5000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 16,
+          "HighRoll": 21,
+          "Name": "Feather Falling",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 22,
+          "HighRoll": 27,
+          "Name": "Fire Resistance",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 30,
+          "Name": "Free Action",
+          "Experience": "1000",
+          "Price": "5,000"
+        },
+        {
+          "LowRoll": 31,
+          "HighRoll": 33,
+          "Name": "Human Influence$",
+          "Experience": "2000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 34,
+          "HighRoll": 40,
+          "Name": "Invisibility",
+          "Experience": "1500",
+          "Price": "7.500"
+        },
+        {
+          "LowRoll": 41,
+          "HighRoll": 43,
+          "Name": "Mammal Control$",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 44,
+          "HighRoll": 44,
+          "Name": "Multiple Wishes$",
+          "Experience": "5000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 45,
+          "HighRoll": 60,
+          "Name": "Protection",
+          "Experience": "2000-4000",
+          "Price": "10,000-20,000"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 61,
+          "Name": "Regeneration",
+          "Experience": "5000",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 62,
+          "HighRoll": 63,
+          "Name": "Shooting Stars",
+          "Experience": "3000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 64,
+          "HighRoll": 65,
+          "Name": "Spell Storing",
+          "Experience": "2500",
+          "Price": "22500"
+        },
+        {
+          "LowRoll": 66,
+          "HighRoll": 69,
+          "Name": "Spell Turning",
+          "Experience": "2000",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 70,
+          "HighRoll": 75,
+          "Name": "Swimming",
+          "Experience": "1000",
+          "Price": "5,000"
+        },
+        {
+          "LowRoll": 76,
+          "HighRoll": 77,
+          "Name": "Telekinesis$",
+          "Experience": "2000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 78,
+          "HighRoll": 79,
+          "Name": "Three Wishes$",
+          "Experience": "3000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 80,
+          "HighRoll": 85,
+          "Name": "Warmth",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 86,
+          "HighRoll": 90,
+          "Name": "Water Walking",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 91,
+          "HighRoll": 98,
+          "Name": "Weakness",
+          "Experience": "***",
+          "Price": "1,000"
+        },
+        {
+          "LowRoll": 99,
+          "HighRoll": 99,
+          "Name": "Wizardry# (M)",
+          "Experience": "4000",
+          "Price": "50,000"
+        },
+        {
+          "LowRoll": 100,
+          "HighRoll": 100,
+          "Name": "X-Ray Vision",
+          "Experience": "4000",
+          "Price": "35,000"
+        }
+
+      ]
+    },
+    {
+      "Class": 3,
+      "LowRoll": 41,
+      "HighRoll": 45,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 3,
+          "Name": "Rod of Absorption (C,M)",
+          "Experience": "7500",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 4,
+          "HighRoll": 4,
+          "Name": "Rod of Beguiling (C,M,T)",
+          "Experience": "5000",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 5,
+          "HighRoll": 14,
+          "Name": "Rod of Cancellation (any)",
+          "Experience": "10000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 15,
+          "HighRoll": 16,
+          "Name": "Rod of lordly Might (F)",
+          "Experience": "6000",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 17,
+          "HighRoll": 17,
+          "Name": "Rod of Resurrection (C)",
+          "Experience": "10000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 18,
+          "HighRoll": 18,
+          "Name": "Rod of Rulership (any)",
+          "Experience": "8000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 19,
+          "HighRoll": 19,
+          "Name": "Rod of Smiting (C,F)",
+          "Experience": "4000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 20,
+          "HighRoll": 20,
+          "Name": "Staff of Command (C,M)",
+          "Experience": "5000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 21,
+          "HighRoll": 22,
+          "Name": "Staff of Curing (C)",
+          "Experience": "6000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 23,
+          "HighRoll": 23,
+          "Name": "Staff of the Magi (M)",
+          "Experience": "15000",
+          "Price": "75000"
+        },
+        {
+          "LowRoll": 24,
+          "HighRoll": 24,
+          "Name": "Staff of Power (M)",
+          "Experience": "12000",
+          "Price": "60000"
+        },
+        {
+          "LowRoll": 25,
+          "HighRoll": 27,
+          "Name": "Staff of the Serpent (C)",
+          "Experience": "7000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 31,
+          "Name": "Staff of Striking (C,M)",
+          "Experience": "6000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 32,
+          "HighRoll": 33,
+          "Name": "Staff of Withering (C)",
+          "Experience": "8000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 34,
+          "HighRoll": 34,
+          "Name": "Wand of Conjuration (M)",
+          "Experience": "7000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 35,
+          "HighRoll": 38,
+          "Name": "Wand of Enemy Detection (any)",
+          "Experience": "2000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 39,
+          "HighRoll": 41,
+          "Name": "Wand of Fear (C,M)",
+          "Experience": "3000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 42,
+          "HighRoll": 44,
+          "Name": "Wand of Fire (M)",
+          "Experience": "4500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 45,
+          "HighRoll": 47,
+          "Name": "Wand of Frost (M)",
+          "Experience": "6000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 48,
+          "HighRoll": 52,
+          "Name": "Wand of illumination (any)",
+          "Experience": "2000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 53,
+          "HighRoll": 56,
+          "Name": "Wand of Illusion (M)",
+          "Experience": "3000",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 57,
+          "HighRoll": 59,
+          "Name": "Wand of Lightning (M)",
+          "Experience": "4000",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 60,
+          "HighRoll": 68,
+          "Name": "Wand of Magic Detection (any)",
+          "Experience": "2500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 69,
+          "HighRoll": 73,
+          "Name": "Wand of Metal & Mineral Detection",
+          "Experience": "1500",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 74,
+          "HighRoll": 78,
+          "Name": "Wand of Magic Missiles (any)",
+          "Experience": "4000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 79,
+          "HighRoll": 86,
+          "Name": "Wand of Negation (any)",
+          "Experience": "3500",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 87,
+          "HighRoll": 89,
+          "Name": "Wand of Paralyzation (M)",
+          "Experience": "3500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 90,
+          "HighRoll": 92,
+          "Name": "Wand of Polymorphing (M)",
+          "Experience": "3500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 93,
+          "HighRoll": 94,
+          "Name": "Wand of Secret Door 8 Trap Location (any)",
+          "Experience": "5000",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 95,
+          "HighRoll": 100,
+          "Name": "Wand of Wonder (any)",
+          "Experience": "6000",
+          "Price": "10000"
+        }
+      ]
+    },
+    {
+      "Class": 4,
+      "LowRoll": 46,
+      "HighRoll": 48,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 2,
+          "Name": "Alchemy Jug",
+          "Experience": "3000",
+          "Price": "12000"
+        },
+        {
+          "LowRoll": 3,
+          "HighRoll": 4,
+          "Name": "Amulet of Inescapable Location",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 5,
+          "HighRoll": 5,
+          "Name": "Amulet of Life Protection",
+          "Experience": "5000",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 6,
+          "HighRoll": 7,
+          "Name": "Amulet of the Planes",
+          "Experience": "6000",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 8,
+          "HighRoll": 11,
+          "Name": "Amulet of Proof Against Detection and Location",
+          "Experience": "4000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 12,
+          "HighRoll": 13,
+          "Name": "Apparatus of Kwalish",
+          "Experience": "8000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 14,
+          "HighRoll": 16,
+          "Name": "Arrow of Direction",
+          "Experience": "2500",
+          "Price": "17,500"
+        },
+        {
+          "LowRoll": 17,
+          "HighRoll": 17,
+          "Name": "Artifact or Relic (see Special table hereafter)",
+          "Experience": "***",
+          "Price": "___"
+        },
+        {
+          "LowRoll": 18,
+          "HighRoll": 20,
+          "Name": "Bag of Beans",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 21,
+          "HighRoll": 21,
+          "Name": "Bag of Devouring",
+          "Experience": "***",
+          "Price": "1500"
+        },
+        {
+          "LowRoll": 22,
+          "HighRoll": 26,
+          "Name": "Bag of Holding",
+          "Experience": "5000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 27,
+          "HighRoll": 27,
+          "Name": "Bag of Transmuting",
+          "Experience": "***",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 29,
+          "Name": "Bag of Tricks",
+          "Experience": "2500",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 30,
+          "HighRoll": 31,
+          "Name": "Beaker of Plentiful Potions",
+          "Experience": "1500",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 32,
+          "HighRoll": 32,
+          "Name": "Boat, Folding",
+          "Experience": "10000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 33,
+          "Name": "Book of Exalted Deeds (C)",
+          "Experience": "8000",
+          "Price": "40,000"
+        },
+        {
+          "LowRoll": 34,
+          "HighRoll": 34,
+          "Name": "Book of Infinite Spells",
+          "Experience": "9000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 35,
+          "HighRoll": 35,
+          "Name": "Book of Vile Darkness (C)",
+          "Experience": "8000",
+          "Price": "40,000"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 36,
+          "Name": "Boots of Dancing",
+          "Experience": "***",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 37,
+          "HighRoll": 42,
+          "Name": "Boots of Elvenkind",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 43,
+          "HighRoll": 47,
+          "Name": "Boots of Levitation",
+          "Experience": "2000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 48,
+          "HighRoll": 51,
+          "Name": "Boots of Speed",
+          "Experience": "2500",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 52,
+          "HighRoll": 55,
+          "Name": "Boots of Striding and Springing",
+          "Experience": "2500",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 56,
+          "HighRoll": 58,
+          "Name": "Bowl Commanding Water Elementals (M)",
+          "Experience": "4000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 59,
+          "HighRoll": 59,
+          "Name": "Bowl of Watery Death (M)",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 60,
+          "HighRoll": 79,
+          "Name": "Bracers of Defense",
+          "Experience": "500*",
+          "Price": "3,000'"
+        },
+        {
+          "LowRoll": 80,
+          "HighRoll": 81,
+          "Name": "Bracers of Defenselessness",
+          "Experience": "***",
+          "Price": "2000"
+        },
+        {
+          "LowRoll": 82,
+          "HighRoll": 84,
+          "Name": "Brazier Commanding Fire Elementals (M)",
+          "Experience": "4000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 85,
+          "HighRoll": 85,
+          "Name": "Brazier of Sleep Smoke (M)",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 86,
+          "HighRoll": 92,
+          "Name": "Brooch of Shielding",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 93,
+          "HighRoll": 93,
+          "Name": "Broom of Animated Attack",
+          "Experience": "***",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 94,
+          "HighRoll": 98,
+          "Name": "Broom of Flying",
+          "Experience": "2000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 99,
+          "HighRoll": 100,
+          "Name": "Bucknard's Everfull Purse",
+          "Experience": "1.5K / 2.5K / 4K",
+          "Price": "15k / 25k / 40k"
+        }
+
+      ]
+    },
+    {
+      "Class": 5,
+      "LowRoll": 49,
+      "HighRoll": 51,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 6,
+          "Name": "Candle of Invocation (C)",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 7,
+          "HighRoll": 8,
+          "Name": "Carpet of Flying",
+          "Experience": "7500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 9,
+          "HighRoll": 10,
+          "Name": "Censer Controlling Air Elementals (M)",
+          "Experience": "4000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 11,
+          "HighRoll": 11,
+          "Name": "Censer of Summoning Hostile Air Elementals (M)",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 12,
+          "HighRoll": 13,
+          "Name": "Chime of Opening",
+          "Experience": "3500",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 14,
+          "HighRoll": 14,
+          "Name": "Chime of Hunger",
+          "Experience": "***",
+          "Price": "***"
+        },
+        {
+          "LowRoll": 15,
+          "HighRoll": 18,
+          "Name": "Cloak of Displacement",
+          "Experience": "3000",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 19,
+          "HighRoll": 27,
+          "Name": "Cloak of Elvenkind",
+          "Experience": "1000",
+          "Price": "6000"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 30,
+          "Name": "Cloak of Manta Ray",
+          "Experience": "2000",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 31,
+          "HighRoll": 32,
+          "Name": "Cloak of Poisonousness",
+          "Experience": "***",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 55,
+          "Name": "Cloak of Protection",
+          "Experience": "1000*",
+          "Price": "1 0,000*"
+        },
+        {
+          "LowRoll": 56,
+          "HighRoll": 60,
+          "Name": "Crystal Ball (M)",
+          "Experience": "1000**",
+          "Price": "5,000**"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 61,
+          "Name": "Crystal Hypnosis Ball (M)",
+          "Experience": "***",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 62,
+          "HighRoll": 63,
+          "Name": "Cube of Force",
+          "Experience": "3000",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 64,
+          "HighRoll": 65,
+          "Name": "Cube of Frost Resistance",
+          "Experience": "2000",
+          "Price": "14000"
+        },
+        {
+          "LowRoll": 66,
+          "HighRoll": 67,
+          "Name": "Cubic Gate",
+          "Experience": "5000",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 68,
+          "HighRoll": 69,
+          "Name": "Daern's Instant Fortress",
+          "Experience": "7000",
+          "Price": "27500"
+        },
+        {
+          "LowRoll": 70,
+          "HighRoll": 72,
+          "Name": "Decanter of Endless Water",
+          "Experience": "1000",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 73,
+          "HighRoll": 76,
+          "Name": "Deck of Mony Things",
+          "Experience": "***",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 77,
+          "HighRoll": 77,
+          "Name": "Drums of Deafening",
+          "Experience": "***",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 78,
+          "HighRoll": 79,
+          "Name": "Drums of Panic",
+          "Experience": "6500",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 80,
+          "HighRoll": 85,
+          "Name": "Dust of Appearance",
+          "Experience": "1000",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 86,
+          "HighRoll": 91,
+          "Name": "Dust of Disappearance",
+          "Experience": "2000",
+          "Price": "8000"
+        },
+        {
+          "LowRoll": 92,
+          "HighRoll": 92,
+          "Name": "Dust of Sneezing and Choking",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 93,
+          "HighRoll": 93,
+          "Name": "Efreeti Bottle",
+          "Experience": "9000",
+          "Price": "45000"
+        },
+        {
+          "LowRoll": 94,
+          "HighRoll": 94,
+          "Name": "Eversmoking Bottle",
+          "Experience": "500",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 95,
+          "HighRoll": 95,
+          "Name": "Eyes of Charming (M)",
+          "Experience": "4000",
+          "Price": "24000"
+        },
+        {
+          "LowRoll": 96,
+          "HighRoll": 97,
+          "Name": "Eyes of the Eagle",
+          "Experience": "3500",
+          "Price": "18000"
+        },
+        {
+          "LowRoll": 98,
+          "HighRoll": 99,
+          "Name": "Eyes of Minute Seeing",
+          "Experience": "2000",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 100,
+          "HighRoll": 100,
+          "Name": "Eyes of Petrification",
+          "Experience": "special***",
+          "Price": "special***"
+        }
+
+      ]
+    },
+    {
+      "Class": 6,
+      "LowRoll": 52,
+      "HighRoll": 54,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 15,
+          "Name": "Figurine of Wondrous Power",
+          "Experience": "100",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 16,
+          "HighRoll": 16,
+          "Name": "Flosk of Curses",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 17,
+          "HighRoll": 18,
+          "Name": "Gauntlets of Dexterity",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 19,
+          "HighRoll": 20,
+          "Name": "Gauntlets of Fumbling",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 21,
+          "HighRoll": 22,
+          "Name": "Gauntlets of Ogre Power (C,F,T)",
+          "Experience": "1000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 23,
+          "HighRoll": 25,
+          "Name": "Gauntlets of Swimming and Climbing  (C,F,T)",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 26,
+          "HighRoll": 26,
+          "Name": "Gem of Brightness",
+          "Experience": "2000",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 27,
+          "HighRoll": 27,
+          "Name": "Gem of Seeing",
+          "Experience": "2000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 28,
+          "Name": "Girdle of Femininity/Masculinity (C, F, T)",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 29,
+          "HighRoll": 29,
+          "Name": "Girdle of Giant Strength (C, F, T)",
+          "Experience": "200",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 30,
+          "HighRoll": 30,
+          "Name": "Helm of Brilliance",
+          "Experience": "2500",
+          "Price": "60000"
+        },
+        {
+          "LowRoll": 31,
+          "HighRoll": 35,
+          "Name": "Helm of Comprehending Languages & Reading Magic",
+          "Experience": "1000",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 37,
+          "Name": "Helm of Opposite Alignment",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 38,
+          "HighRoll": 39,
+          "Name": "Helm of Telepathy",
+          "Experience": "3000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 40,
+          "HighRoll": 40,
+          "Name": "Helm of Teleportation",
+          "Experience": "2500",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 41,
+          "HighRoll": 45,
+          "Name": "Helm of Underwater Action",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 46,
+          "HighRoll": 46,
+          "Name": "Horn of Blasting",
+          "Experience": "5000",
+          "Price": "55000"
+        },
+        {
+          "LowRoll": 47,
+          "HighRoll": 48,
+          "Name": "Horn of Bubbles",
+          "Experience": "***",
+          "Price": "***"
+        },
+        {
+          "LowRoll": 49,
+          "HighRoll": 49,
+          "Name": "Horn of Collapsing",
+          "Experience": "1500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 50,
+          "HighRoll": 53,
+          "Name": "Horn of the Tritons (C, F)",
+          "Experience": "2000",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 54,
+          "HighRoll": 60,
+          "Name": "Horn of Valhalla",
+          "Experience": "1000**",
+          "Price": "15,000"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 63,
+          "Name": "Horseshoes of Speed",
+          "Experience": "2000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 64,
+          "HighRoll": 65,
+          "Name": "Horseshoes of a Zephyr",
+          "Experience": "1500",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 66,
+          "HighRoll": 70,
+          "Name": "Incense of Meditation (C)",
+          "Experience": "500",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 71,
+          "HighRoll": 71,
+          "Name": "Incense of Obsession (C)",
+          "Experience": "***",
+          "Price": "500"
+        },
+        {
+          "LowRoll": 72,
+          "HighRoll": 72,
+          "Name": "loun Stones",
+          "Experience": "300***",
+          "Price": "5,000***"
+        },
+        {
+          "LowRoll": 73,
+          "HighRoll": 78,
+          "Name": "Instrument of the Bards",
+          "Experience": "1000****",
+          "Price": "5,000****"
+        },
+        {
+          "LowRoll": 79,
+          "HighRoll": 80,
+          "Name": "Iron Flask",
+          "Experience": "***",
+          "Price": "***"
+        },
+        {
+          "LowRoll": 81,
+          "HighRoll": 85,
+          "Name": "Javelin of Lightning (F)",
+          "Experience": "250",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 86,
+          "HighRoll": 90,
+          "Name": "Javelin of Piercing (F)",
+          "Experience": "250",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 91,
+          "HighRoll": 91,
+          "Name": "Jewel of Attocks",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 92,
+          "HighRoll": 92,
+          "Name": "Jewel of Flawlessness",
+          "Experience": "***",
+          "Price": "l,000/facet"
+        },
+        {
+          "LowRoll": 93,
+          "HighRoll": 100,
+          "Name": "Keoghtom's Ointment",
+          "Experience": "500",
+          "Price": "10000"
+        }
+      ]
+    },
+    {
+      "Class": 7,
+      "LowRoll": 55,
+      "HighRoll": 57,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 1,
+          "Name": "Libram of Gainful Conjuration (M)",
+          "Experience": "8000",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 2,
+          "HighRoll": 2,
+          "Name": "Libram of Ineffable Damnation (M)",
+          "Experience": "8000",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 3,
+          "HighRoll": 3,
+          "Name": "Libram of Silver Magic (M)",
+          "Experience": "8000",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 4,
+          "HighRoll": 4,
+          "Name": "Lyre of Building",
+          "Experience": "5000",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 5,
+          "HighRoll": 5,
+          "Name": "Manual of Bodily Health",
+          "Experience": "5000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 6,
+          "HighRoll": 6,
+          "Name": "Manual of Goinful Exercise",
+          "Experience": "5000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 7,
+          "HighRoll": 7,
+          "Name": "Manual of Golems (C, M)",
+          "Experience": "3000",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 8,
+          "HighRoll": 8,
+          "Name": "Manual of Puissant Skill at Arms (F)",
+          "Experience": "8000",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 9,
+          "HighRoll": 9,
+          "Name": "Manual of Quickness of Action",
+          "Experience": "5000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 10,
+          "HighRoll": 10,
+          "Name": "Manual of Stealthy Pilfering (T)",
+          "Experience": "8000",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 11,
+          "HighRoll": 11,
+          "Name": "Mattock of the Titans (F)",
+          "Experience": "3500",
+          "Price": "7000"
+        },
+        {
+          "LowRoll": 12,
+          "HighRoll": 12,
+          "Name": "Maul of the Titans",
+          "Experience": "4000",
+          "Price": "12000"
+        },
+        {
+          "LowRoll": 13,
+          "HighRoll": 15,
+          "Name": "Medallion of ESP",
+          "Experience": "1,000/3,000",
+          "Price": "10,000/30,000"
+        },
+        {
+          "LowRoll": 16,
+          "HighRoll": 17,
+          "Name": "Medallion of Thought Projection",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 18,
+          "HighRoll": 18,
+          "Name": "Mirror of Life Tropping (M)",
+          "Experience": "2500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 19,
+          "HighRoll": 19,
+          "Name": "Mirror of Mental Prowess",
+          "Experience": "5000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 20,
+          "HighRoll": 20,
+          "Name": "Mirror of Opposition",
+          "Experience": "***",
+          "Price": "2000"
+        },
+        {
+          "LowRoll": 21,
+          "HighRoll": 23,
+          "Name": "Necklace of Adaptation",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 24,
+          "HighRoll": 27,
+          "Name": "Neckloce of Missiles",
+          "Experience": "50*",
+          "Price": "200*"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 33,
+          "Name": "Neckloce of Prayer Beads (C)",
+          "Experience": "500",
+          "Price": "3,000"
+        },
+        {
+          "LowRoll": 34,
+          "HighRoll": 35,
+          "Name": "Necklace of Strangulation",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 38,
+          "Name": "Net of Entrapment (C, F, T)",
+          "Experience": "1000",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 39,
+          "HighRoll": 42,
+          "Name": "Net of Snaring (C, F, T)",
+          "Experience": "1000",
+          "Price": "6000"
+        },
+        {
+          "LowRoll": 43,
+          "HighRoll": 44,
+          "Name": "Nolzurs' Marvelous Pigments",
+          "Experience": "500*'",
+          "Price": "3000***"
+        },
+        {
+          "LowRoll": 45,
+          "HighRoll": 46,
+          "Name": "Pearl of Power (M)",
+          "Experience": "200**",
+          "Price": "2000**"
+        },
+        {
+          "LowRoll": 47,
+          "HighRoll": 48,
+          "Name": "Peorl of Wisdom (C)",
+          "Experience": "500",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 49,
+          "HighRoll": 50,
+          "Name": "Periapt of Foul Rotting",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 51,
+          "HighRoll": 53,
+          "Name": "Periapt of Health",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 54,
+          "HighRoll": 60,
+          "Name": "Periapt of Proof Against Poison",
+          "Experience": "1500",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 64,
+          "Name": "Periapt of Wound Closure",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 65,
+          "HighRoll": 70,
+          "Name": "Phylactery of Faithfulness (C)",
+          "Experience": "1000",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 71,
+          "HighRoll": 74,
+          "Name": "Phyloctery of long Years (C)",
+          "Experience": "3000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 75,
+          "HighRoll": 76,
+          "Name": "Phylactery of Monstrous Attention (C)",
+          "Experience": "***",
+          "Price": "2000"
+        },
+        {
+          "LowRoll": 77,
+          "HighRoll": 84,
+          "Name": "Pipes of the Sewers",
+          "Experience": "1750",
+          "Price": "8500"
+        },
+        {
+          "LowRoll": 85,
+          "HighRoll": 85,
+          "Name": "Portable Hole",
+          "Experience": "5000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 86,
+          "HighRoll": 100,
+          "Name": "Quaal's Feather Token",
+          "Experience": "500/1000",
+          "Price": "2,000/7,000"
+        }
+      ]
+    },
+    {
+      "Class": 8,
+      "LowRoll": 58,
+      "HighRoll": 60,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 1,
+          "Name": "Robe of the Archmagi (M)",
+          "Experience": "6000",
+          "Price": "65000"
+        },
+        {
+          "LowRoll": 2,
+          "HighRoll": 8,
+          "Name": "Robe of Blending",
+          "Experience": "3500",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 9,
+          "HighRoll": 9,
+          "Name": "Robe of Eyes (M)",
+          "Experience": "4500",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 10,
+          "HighRoll": 10,
+          "Name": "Robe of Powerlessness (M)",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 11,
+          "HighRoll": 11,
+          "Name": "Robe of Scintillating Colors (C,M)",
+          "Experience": "2750",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 12,
+          "HighRoll": 19,
+          "Name": "Robe of Useful ftems (M)",
+          "Experience": "1500",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 20,
+          "HighRoll": 25,
+          "Name": "Rope of Climbing",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 26,
+          "HighRoll": 27,
+          "Name": "Rope of Constriction",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 31,
+          "Name": "Rope of Entonglement",
+          "Experience": "1250",
+          "Price": "12000"
+        },
+        {
+          "LowRoll": 32,
+          "HighRoll": 32,
+          "Name": "Rug of Smothering",
+          "Experience": "***",
+          "Price": "1500"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 33,
+          "Name": "Rug of Welcome (M)",
+          "Experience": "6500",
+          "Price": "45000"
+        },
+        {
+          "LowRoll": 34,
+          "HighRoll": 34,
+          "Name": "Saw of Mighty Cutting (F)",
+          "Experience": "1750",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 35,
+          "HighRoll": 35,
+          "Name": "Scorab of Deoth",
+          "Experience": "***",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 38,
+          "Name": "Scarab of Enraging Enemies",
+          "Experience": "1000",
+          "Price": "8000"
+        },
+        {
+          "LowRoll": 39,
+          "HighRoll": 40,
+          "Name": "Scarab of insainty",
+          "Experience": "1500",
+          "Price": "11000"
+        },
+        {
+          "LowRoll": 41,
+          "HighRoll": 46,
+          "Name": "scarab of Protection",
+          "Experience": "2500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 47,
+          "HighRoll": 47,
+          "Name": "Spade of Colossal Excavation (F)",
+          "Experience": "1000",
+          "Price": "6500"
+        },
+        {
+          "LowRoll": 48,
+          "HighRoll": 48,
+          "Name": "Sphere of Annihilotion (M)",
+          "Experience": "3750",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 49,
+          "HighRoll": 50,
+          "Name": "Stone of Controlling Earth Elementals",
+          "Experience": "1500",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 51,
+          "HighRoll": 52,
+          "Name": "Stone of Good Luck (Luckstone)",
+          "Experience": "3000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 53,
+          "HighRoll": 54,
+          "Name": "Stone of Weight (Loadstone)",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 55,
+          "HighRoll": 57,
+          "Name": "Tolisman of Pure Good (C)",
+          "Experience": "3500",
+          "Price": "27500"
+        },
+        {
+          "LowRoll": 58,
+          "HighRoll": 58,
+          "Name": "Talisman of the Sphere (M)",
+          "Experience": "100",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 59,
+          "HighRoll": 60,
+          "Name": "Talisman of Ultimate Evil (C)",
+          "Experience": "3500",
+          "Price": "32500"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 66,
+          "Name": "Talisman of Zagy",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 67,
+          "HighRoll": 67,
+          "Name": "Tome of Clear Thought",
+          "Experience": "8000",
+          "Price": "48000"
+        },
+        {
+          "LowRoll": 68,
+          "HighRoll": 68,
+          "Name": "Tome of Leadership and Influence",
+          "Experience": "7500",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 69,
+          "HighRoll": 69,
+          "Name": "Tome of Understanding",
+          "Experience": "8000",
+          "Price": "43500"
+        },
+        {
+          "LowRoll": 70,
+          "HighRoll": 76,
+          "Name": "Trident of Fish Command (C, F, T)",
+          "Experience": "500",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 77,
+          "HighRoll": 78,
+          "Name": "Trident of Submission (F)",
+          "Experience": "1250",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 79,
+          "HighRoll": 83,
+          "Name": "Trident of Warning (C, F, T)",
+          "Experience": "1000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 84,
+          "HighRoll": 85,
+          "Name": "Trident of Yeorning",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 86,
+          "HighRoll": 87,
+          "Name": "Vacuous Grimoire",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 88,
+          "HighRoll": 90,
+          "Name": "Well of Many Worlds",
+          "Experience": "6000",
+          "Price": "12000"
+        },
+        {
+          "LowRoll": 91,
+          "HighRoll": 100,
+          "Name": "Wings of Flying",
+          "Experience": "750",
+          "Price": "7500"
+        }
+      ]
+    },
+    {
+      "Class": 9,
+      "LowRoll": 61,
+      "HighRoll": 75,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 5,
+          "Name": "Chain Mail +1",
+          "Experience": "600",
+          "Price": "3500"
+        },
+        {
+          "LowRoll": 6,
+          "HighRoll": 9,
+          "Name": "Chain Moil +2",
+          "Experience": "1200",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 10,
+          "HighRoll": 11,
+          "Name": "Chain Mail +3",
+          "Experience": "2000",
+          "Price": "12500"
+        },
+        {
+          "LowRoll": 12,
+          "HighRoll": 19,
+          "Name": "Leather armor +1",
+          "Experience": "300",
+          "Price": "2000"
+        },
+        {
+          "LowRoll": 20,
+          "HighRoll": 26,
+          "Name": "Plate Mail +1",
+          "Experience": "800",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 27,
+          "HighRoll": 32,
+          "Name": "Plate Mail +2",
+          "Experience": "1750",
+          "Price": "10500"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 35,
+          "Name": "Plate Mail +3",
+          "Experience": "2750",
+          "Price": "15500"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 37,
+          "Name": "Plate Mail +4",
+          "Experience": "3500",
+          "Price": "20500"
+        },
+        {
+          "LowRoll": 38,
+          "HighRoll": 38,
+          "Name": "Plate Mail +5",
+          "Experience": "4500",
+          "Price": "27500"
+        },
+        {
+          "LowRoll": 39,
+          "HighRoll": 39,
+          "Name": "Plate Mail of Etherealness",
+          "Experience": "5000",
+          "Price": "30000"
+        },
+        {
+          "LowRoll": 40,
+          "HighRoll": 44,
+          "Name": "Plate Mail of Vulnerability",
+          "Experience": "***",
+          "Price": "1500"
+        },
+        {
+          "LowRoll": 45,
+          "HighRoll": 50,
+          "Name": "Ring Mail+1",
+          "Experience": "400",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 51,
+          "HighRoll": 55,
+          "Name": "Scale Moil +1",
+          "Experience": "500",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 56,
+          "HighRoll": 59,
+          "Name": "Scale Mail +2",
+          "Experience": "1100",
+          "Price": "6750"
+        },
+        {
+          "LowRoll": 64,
+          "HighRoll": 66,
+          "Name": "Splint Mail +1",
+          "Experience": "700",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 67,
+          "HighRoll": 68,
+          "Name": "Splint Mail + 2",
+          "Experience": "1500",
+          "Price": "8500"
+        },
+        {
+          "LowRoll": 69,
+          "HighRoll": 69,
+          "Name": "Splint Mail +3",
+          "Experience": "2250",
+          "Price": "14500"
+        },
+        {
+          "LowRoll": 70,
+          "HighRoll": 75,
+          "Name": "Splint Moil +4",
+          "Experience": "3000",
+          "Price": "19000"
+        },
+        {
+          "LowRoll": 76,
+          "HighRoll": 84,
+          "Name": "Studded Leather +1",
+          "Experience": "400",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 85,
+          "HighRoll": 89,
+          "Name": "Shield +1",
+          "Experience": "250",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 90,
+          "HighRoll": 93,
+          "Name": "Shield +2",
+          "Experience": "500",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 94,
+          "HighRoll": 95,
+          "Name": "Shield +3",
+          "Experience": "800",
+          "Price": "8000"
+        },
+        {
+          "LowRoll": 96,
+          "HighRoll": 96,
+          "Name": "Shield +4",
+          "Experience": "1200",
+          "Price": "12000"
+        },
+        {
+          "LowRoll": 97,
+          "HighRoll": 97,
+          "Name": "Shield +5",
+          "Experience": "1750",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 60,
+          "HighRoll": 63,
+          "Name": "Shield, large,+1, +4 vs. Missiles",
+          "Experience": "400",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 98,
+          "HighRoll": 100,
+          "Name": "Shield-I, missile attractor",
+          "Experience": "***",
+          "Price": "750"
+        }
+      ]
+    },
+    {
+      "Class": 10,
+      "LowRoll": 76,
+      "HighRoll": 86,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 25,
+          "Name": "Sword +1",
+          "Experience": "400",
+          "Price": "2000"
+        },
+        {
+          "LowRoll": 26,
+          "HighRoll": 30,
+          "Name": "Sword +1, +2 vs magic-using and enchanted creatures",
+          "Experience": "600",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 31,
+          "HighRoll": 35,
+          "Name": "Sword +1, +3 vs lycanthropes & shape changers",
+          "Experience": "700",
+          "Price": "3500"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 40,
+          "Name": "Sword +1, +3 vs regenerating creatures",
+          "Experience": "800",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 41,
+          "HighRoll": 45,
+          "Name": "Sword +1, +4 vs. reptiles",
+          "Experience": "800",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 46,
+          "HighRoll": 49,
+          "Name": "Sword +1, Flame Tongue (+2,+3,+4)",
+          "Experience": "900",
+          "Price": "4500"
+        },
+        {
+          "LowRoll": 50,
+          "HighRoll": 50,
+          "Name": "Sword +1, Luck Blade",
+          "Experience": "1000",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 51,
+          "HighRoll": 58,
+          "Name": "Sword +2",
+          "Experience": "800",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 59,
+          "HighRoll": 62,
+          "Name": "Sword +2, Giant Slayer",
+          "Experience": "900",
+          "Price": "4500"
+        },
+        {
+          "LowRoll": 63,
+          "HighRoll": 66,
+          "Name": "Sword +2, Dragon Slayer",
+          "Experience": "900",
+          "Price": "4500"
+        },
+        {
+          "LowRoll": 67,
+          "HighRoll": 67,
+          "Name": "Sword +2, Nine Lives Stealer",
+          "Experience": "1600",
+          "Price": "8000"
+        },
+        {
+          "LowRoll": 68,
+          "HighRoll": 71,
+          "Name": "Sword +3",
+          "Experience": "1400",
+          "Price": "7000"
+        },
+        {
+          "LowRoll": 72,
+          "HighRoll": 74,
+          "Name": "Sword +3, Frost Brand: (+6 vs fire using)",
+          "Experience": "1600",
+          "Price": "8000"
+        },
+        {
+          "LowRoll": 75,
+          "HighRoll": 76,
+          "Name": "Sword +4",
+          "Experience": "2000",
+          "Price": "10000"
+        },
+        {
+          "LowRoll": 77,
+          "HighRoll": 77,
+          "Name": "Sword +4, Defender",
+          "Experience": "3000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 78,
+          "HighRoll": 78,
+          "Name": "Sword +5",
+          "Experience": "3000",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 79,
+          "HighRoll": 79,
+          "Name": "Sword +5, Defender",
+          "Experience": "3600",
+          "Price": "18000"
+        },
+        {
+          "LowRoll": 80,
+          "HighRoll": 80,
+          "Name": "Sword +5, Holy Avenger",
+          "Experience": "4000",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 81,
+          "HighRoll": 81,
+          "Name": "Sword of Dancing",
+          "Experience": "4400",
+          "Price": "22000"
+        },
+        {
+          "LowRoll": 82,
+          "HighRoll": 82,
+          "Name": "Sword of Wounding",
+          "Experience": "4400",
+          "Price": "22000"
+        },
+        {
+          "LowRoll": 83,
+          "HighRoll": 83,
+          "Name": "Sword of Life Stealing",
+          "Experience": "5000",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 84,
+          "HighRoll": 84,
+          "Name": "Sword of Sharpness",
+          "Experience": "7000",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 85,
+          "HighRoll": 85,
+          "Name": "Sword, Vorpal Weapon",
+          "Experience": "10000",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 86,
+          "HighRoll": 90,
+          "Name": "Sword+1, Cursed",
+          "Experience": "400",
+          "Price": "***"
+        },
+        {
+          "LowRoll": 91,
+          "HighRoll": 95,
+          "Name": "Sword -2, Cursed",
+          "Experience": "600",
+          "Price": "***"
+        },
+        {
+          "LowRoll": 96,
+          "HighRoll": 100,
+          "Name": "Sword, Cursed Berserking",
+          "Experience": "900",
+          "Price": "***"
+        }
+      ]
+    },
+    {
+      "Class": 11,
+      "LowRoll": 87,
+      "HighRoll": 100,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 8,
+          "Name": "Arrow + 1, 2-24 in number",
+          "Experience": "20",
+          "Price": "120"
+        },
+        {
+          "LowRoll": 9,
+          "HighRoll": 12,
+          "Name": "Arrow +2,2-16 in number",
+          "Experience": "50",
+          "Price": "300"
+        },
+        {
+          "LowRoll": 13,
+          "HighRoll": 14,
+          "Name": "Arrow +3, 2-12 in number",
+          "Experience": "75",
+          "Price": "450"
+        },
+        {
+          "LowRoll": 15,
+          "HighRoll": 15,
+          "Name": "Arrow of Slaying",
+          "Experience": "250",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 16,
+          "HighRoll": 20,
+          "Name": "Axe + I",
+          "Experience": "300",
+          "Price": "1750"
+        },
+        {
+          "LowRoll": 21,
+          "HighRoll": 22,
+          "Name": "Axe +2",
+          "Experience": "600",
+          "Price": "3750"
+        },
+        {
+          "LowRoll": 23,
+          "HighRoll": 23,
+          "Name": "Axe +2, Throwing",
+          "Experience": "750",
+          "Price": "4500"
+        },
+        {
+          "LowRoll": 24,
+          "HighRoll": 24,
+          "Name": "Axe +3",
+          "Experience": "1000",
+          "Price": "7000"
+        },
+        {
+          "LowRoll": 25,
+          "HighRoll": 27,
+          "Name": "Battle Axe + I",
+          "Experience": "400",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 32,
+          "Name": "Bolt +2,2-20 in number",
+          "Experience": "50",
+          "Price": "300"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 35,
+          "Name": "Bow + I",
+          "Experience": "500",
+          "Price": "3500"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 36,
+          "Name": "Crossbow of Accuracy, +3",
+          "Experience": "2000",
+          "Price": "12000"
+        },
+        {
+          "LowRoll": 37,
+          "HighRoll": 37,
+          "Name": "Crossbow of Distance",
+          "Experience": "1500",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 38,
+          "HighRoll": 38,
+          "Name": "Crossbow of Speed",
+          "Experience": "1500",
+          "Price": "7500"
+        },
+        {
+          "LowRoll": 39,
+          "HighRoll": 46,
+          "Name": "Dagger + I, +2 vs. Creatures smaller than man-sized",
+          "Experience": "100",
+          "Price": "750"
+        },
+        {
+          "LowRoll": 47,
+          "HighRoll": 50,
+          "Name": "Dagger +2, + 3 vs. Creatures larger than man-sized",
+          "Experience": "250",
+          "Price": "2000"
+        },
+        {
+          "LowRoll": 51,
+          "HighRoll": 51,
+          "Name": "Dagger of Venom",
+          "Experience": "350",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 52,
+          "HighRoll": 56,
+          "Name": "Flail + I",
+          "Experience": "450",
+          "Price": "4000"
+        },
+        {
+          "LowRoll": 57,
+          "HighRoll": 60,
+          "Name": "Hammer + I",
+          "Experience": "300",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 61,
+          "HighRoll": 62,
+          "Name": "Hammer +2",
+          "Experience": "650",
+          "Price": "6000"
+        },
+        {
+          "LowRoll": 63,
+          "HighRoll": 63,
+          "Name": "Hammer +3, Dwarven Thrower",
+          "Experience": "1500",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 64,
+          "HighRoll": 64,
+          "Name": "Hammer of Thunderbolts",
+          "Experience": "2500",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 65,
+          "HighRoll": 67,
+          "Name": "Javelin +2",
+          "Experience": "750",
+          "Price": "5000"
+        },
+        {
+          "LowRoll": 68,
+          "HighRoll": 72,
+          "Name": "Mace + I",
+          "Experience": "350",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 73,
+          "HighRoll": 75,
+          "Name": "Mace +2",
+          "Experience": "700",
+          "Price": "4500"
+        },
+        {
+          "LowRoll": 76,
+          "HighRoll": 76,
+          "Name": "Mace of Disruption",
+          "Experience": "1750",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 77,
+          "HighRoll": 77,
+          "Name": "Mace +4",
+          "Experience": "1500",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 78,
+          "HighRoll": 80,
+          "Name": "Military Pick + I",
+          "Experience": "350",
+          "Price": "2500"
+        },
+        {
+          "LowRoll": 81,
+          "HighRoll": 83,
+          "Name": "Morning Star + I",
+          "Experience": "400",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 84,
+          "HighRoll": 88,
+          "Name": "Scimitar +2",
+          "Experience": "750",
+          "Price": "6000"
+        },
+        {
+          "LowRoll": 89,
+          "HighRoll": 89,
+          "Name": "Sling of Seeking +2",
+          "Experience": "700",
+          "Price": "7000"
+        },
+        {
+          "LowRoll": 90,
+          "HighRoll": 94,
+          "Name": "Spear + I",
+          "Experience": "500",
+          "Price": "3000"
+        },
+        {
+          "LowRoll": 95,
+          "HighRoll": 96,
+          "Name": "Spear + 2",
+          "Experience": "1000",
+          "Price": "6500"
+        },
+        {
+          "LowRoll": 97,
+          "HighRoll": 97,
+          "Name": "Spear + 3",
+          "Experience": "1750",
+          "Price": "15000"
+        },
+        {
+          "LowRoll": 98,
+          "HighRoll": 99,
+          "Name": "Spear, Cursed Backbiter",
+          "Experience": "***",
+          "Price": "1000"
+        },
+        {
+          "LowRoll": 100,
+          "HighRoll": 100,
+          "Name": "Trident (Military Fork) +3",
+          "Experience": "1500",
+          "Price": "12500"
+        }
+      ]
+    },
+    {
+      "Class": 12,
+      "LowRoll": -1,
+      "HighRoll": -1,
+      "ItemEntries": [
+        {
+          "LowRoll": 1,
+          "HighRoll": 1,
+          "Name": "Axe of the Dwarvish Lords",
+          "Experience": "***",
+          "Price": "55000"
+        },
+        {
+          "LowRoll": 2,
+          "HighRoll": 2,
+          "Name": "Bobo Yogas Hut",
+          "Experience": "***",
+          "Price": "90000"
+        },
+        {
+          "LowRoll": 3,
+          "HighRoll": 4,
+          "Name": "Codex of the Infinite Planes",
+          "Experience": "***",
+          "Price": "62500"
+        },
+        {
+          "LowRoll": 5,
+          "HighRoll": 20,
+          "Name": "Crown of Might",
+          "Experience": "***",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 21,
+          "HighRoll": 21,
+          "Name": "Crystal of the Ebon Flame",
+          "Experience": "***",
+          "Price": "75000"
+        },
+        {
+          "LowRoll": 22,
+          "HighRoll": 22,
+          "Name": "Cup and Talisman of AIAkbar",
+          "Experience": "***",
+          "Price": "85000"
+        },
+        {
+          "LowRoll": 23,
+          "HighRoll": 24,
+          "Name": "Eye of Vecna",
+          "Experience": "***",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 25,
+          "HighRoll": 25,
+          "Name": "Hand of Vecna",
+          "Experience": "***",
+          "Price": "60000"
+        },
+        {
+          "LowRoll": 26,
+          "HighRoll": 26,
+          "Name": "Hewards Mystical Organ",
+          "Experience": "***",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 27,
+          "HighRoll": 27,
+          "Name": "Horn of Change",
+          "Experience": "***",
+          "Price": "20000"
+        },
+        {
+          "LowRoll": 28,
+          "HighRoll": 29,
+          "Name": "Invulnerable Coat of Arnd",
+          "Experience": "***",
+          "Price": "47500"
+        },
+        {
+          "LowRoll": 30,
+          "HighRoll": 31,
+          "Name": "Iron Flask of Tuerny the Merciless",
+          "Experience": "***",
+          "Price": "50000"
+        },
+        {
+          "LowRoll": 32,
+          "HighRoll": 32,
+          "Name": "Jacinth of Inestimable Beauty",
+          "Experience": "***",
+          "Price": "100000"
+        },
+        {
+          "LowRoll": 33,
+          "HighRoll": 33,
+          "Name": "Johydees Mask",
+          "Experience": "***",
+          "Price": "40000"
+        },
+        {
+          "LowRoll": 34,
+          "HighRoll": 35,
+          "Name": "Kuroths Quill",
+          "Experience": "***",
+          "Price": "27500"
+        },
+        {
+          "LowRoll": 36,
+          "HighRoll": 37,
+          "Name": "Mace of Cuthbert",
+          "Experience": "***",
+          "Price": "35000"
+        },
+        {
+          "LowRoll": 38,
+          "HighRoll": 38,
+          "Name": "Machine of Lum the Mod",
+          "Experience": "***",
+          "Price": "72500"
+        },
+        {
+          "LowRoll": 39,
+          "HighRoll": 40,
+          "Name": "Mighty Servant of Leuk-0",
+          "Experience": "***",
+          "Price": "185000"
+        },
+        {
+          "LowRoll": 41,
+          "HighRoll": 47,
+          "Name": "Orb of the Dragonkind",
+          "Experience": "***",
+          "Price": "10-80,000"
+        },
+        {
+          "LowRoll": 48,
+          "HighRoll": 63,
+          "Name": "Orb of Might",
+          "Experience": "***",
+          "Price": "100"
+        },
+        {
+          "LowRoll": 64,
+          "HighRoll": 64,
+          "Name": "Queen Ehlissas Marvelous Nightingale",
+          "Experience": "***",
+          "Price": "1 12,500"
+        },
+        {
+          "LowRoll": 65,
+          "HighRoll": 66,
+          "Name": "Recorder of YeCind",
+          "Experience": "***",
+          "Price": "80"
+        },
+        {
+          "LowRoll": 67,
+          "HighRoll": 68,
+          "Name": "Ring of Gaxx",
+          "Experience": "***",
+          "Price": "17500"
+        },
+        {
+          "LowRoll": 69,
+          "HighRoll": 74,
+          "Name": "Rod of Seven Parts",
+          "Experience": "***",
+          "Price": "25000"
+        },
+        {
+          "LowRoll": 75,
+          "HighRoll": 91,
+          "Name": "Sceptre of Might",
+          "Experience": "***",
+          "Price": "150,ooO"
+        },
+        {
+          "LowRoll": 92,
+          "HighRoll": 92,
+          "Name": "Sword of Kas",
+          "Experience": "***",
+          "Price": "97000"
+        },
+        {
+          "LowRoll": 93,
+          "HighRoll": 98,
+          "Name": "Teeth of Dahlver-Nor",
+          "Experience": "***",
+          "Price": "5,000/tooth"
+        },
+        {
+          "LowRoll": 99,
+          "HighRoll": 99,
+          "Name": "Throne of the Gods",
+          "Experience": "***",
+          "Price": "***"
+        },
+        {
+          "LowRoll": 100,
+          "HighRoll": 100,
+          "Name": "Wand of Orcus",
+          "Experience": "***",
+          "Price": "10000"
+        }
+      ]
+    }
+  ]
+}
