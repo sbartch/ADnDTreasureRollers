@@ -6,28 +6,42 @@
         xmlns:local="clr-namespace:GemRoller"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}" ResizeMode="CanResizeWithGrip"
         >
 
     <Grid>
-        <Label x:Name="label" Content="Total Number of Gems" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Width="149"/>
-        <Label x:Name="label_Copy" Content="Low Group Count" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="149"/>
-        <Label x:Name="label_Copy1" Content="High Group Count" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="TotalGemCount" HorizontalAlignment="Left" Height="23" Margin="164,23,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="LowGroupCount" HorizontalAlignment="Left" Height="23" Margin="164,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
-        <TextBox x:Name="HighGroupCount" HorizontalAlignment="Left" Height="23" Margin="164,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="RollGems" Content="Roll Gems" HorizontalAlignment="Left" Margin="38,138,0,0" VerticalAlignment="Top" Width="109" Height="39" Click="RollGems_Click"/>
-        <ListView x:Name="gemListView" HorizontalAlignment="Left" Height="134" Margin="73,258,0,0" VerticalAlignment="Top" Width="572" 
+        <Grid Margin="1,1,1,1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="RollGems" Grid.Row="1" Grid.Column="0" Content="Roll Gems" HorizontalAlignment="Left" VerticalAlignment="Top" Width="109" Height="39" Click="RollGems_Click" RenderTransformOrigin="0.472,2.025" Margin="10,10,0,0" />
+            <Button x:Name="ButtonCopy" Grid.Row="1" Grid.Column="1" Content="Copy To Clipboard" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopy_Click" Margin="270,10,0,0" RenderTransformOrigin="0.528,-0.933"  />
+            <Label x:Name="label" Content="Total Number of Gems" HorizontalAlignment="Left" Margin="19,15,0,0" VerticalAlignment="Top" Width="145" RenderTransformOrigin="0.712,0.693" Height="24"/>
+            <Label x:Name="label_Copy" Content="Low Group Count" HorizontalAlignment="Left" Margin="19,39,0,0" VerticalAlignment="Top" Width="145" Height="24"/>
+            <Label x:Name="label_Copy1" Content="High Group Count" HorizontalAlignment="Left" Margin="19,63,0,0" VerticalAlignment="Top" Width="145" Height="24"/>
+            <TextBox x:Name="TotalGemCount" HorizontalAlignment="Left" Height="21" Margin="169,15,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="117"/>
+            <TextBox x:Name="LowGroupCount" HorizontalAlignment="Left" Height="21" Margin="169,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" />
+            <TextBox x:Name="HighGroupCount" HorizontalAlignment="Left" Height="21" Margin="169,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+            <ListView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="gemListView" HorizontalAlignment="Left" Height="257"  VerticalAlignment="Top" Width="780" 
                   DataContext="{Binding}" ItemsSource="{Binding Path=MyCollection}" SelectionChanged="gemListView_SelectionChanged">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Width="166" Header="Description" DisplayMemberBinding="{Binding GemName}"/>
-                    <GridViewColumn Width="66" Header="Count" DisplayMemberBinding="{Binding GemCount}"/>
-                    <GridViewColumn Width="66" Header="Value" DisplayMemberBinding="{Binding GemValue}"/>
-                    <GridViewColumn Width="66" Header="Total" DisplayMemberBinding="{Binding TotalValue}"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-        <Button x:Name="ButtonCopy" Content="Copy To Clipboard" HorizontalAlignment="Left" Margin="530,218,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopy_Click"/>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="166" Header="Description" DisplayMemberBinding="{Binding GemName}"/>
+                        <GridViewColumn Width="66" Header="Count" DisplayMemberBinding="{Binding GemCount}"/>
+                        <GridViewColumn Width="66" Header="Value" DisplayMemberBinding="{Binding GemValue}"/>
+                        <GridViewColumn Width="66" Header="Total" DisplayMemberBinding="{Binding TotalValue}"/>
+                        <GridViewColumn  Width="24" Header="*" DisplayMemberBinding="{Binding SpecialValue}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Label x:Name="totalValuelbl" Content="Total Value: 0 gp" HorizontalAlignment="Left" Height="24" Margin="219,21,0,0" Grid.Row="1" VerticalAlignment="Top" Width="126"/>
+            <Label x:Name="totalGemCountlbl" Content="Total Gems: 0" HorizontalAlignment="Left" Height="24" Margin="372,21,0,0" Grid.Row="1" VerticalAlignment="Top" Width="126" Grid.ColumnSpan="2"/>
+        </Grid>
     </Grid>
 </Window>

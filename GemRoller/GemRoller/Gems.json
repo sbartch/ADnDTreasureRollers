@@ -1,5 +1,5 @@
 {
-  "GemsClasses":[
+  "GemsClasses": [
     {
       "Class": 0,
       "Type": "Ornamental Stones",
@@ -219,5 +219,26 @@
         }
       ]
     }
+  ],
+
+  "GemsBaseValues": [
+    { "Name": "GlassMinus4", "Value" : 0.1 },
+    { "Name": "GlassMinus3", "Value" : 0.25 },
+    { "Name": "GlassMinus2", "Value" : 0.5 },
+    { "Name": "GlassMinus1", "Value" : 1 },
+    { "Name" : "Glass", "Value" : 5 },
+    { "Name" : "Ornamental", "Value" : 10 },
+    { "Name" : "SemiPrecious", "Value" : 50 },
+    { "Name" : "Fancy", "Value" : 100 },
+    { "Name" : "FancyPlus", "Value" : 500 },
+    { "Name" : "Gem", "Value" : 1000 },
+    { "Name" : "GemPlus", "Value" : 5000 },
+    { "Name" : "GemPlus1", "Value" : 10000 },
+    { "Name" : "GemPlus2", "Value" : 25000 },
+    { "Name" : "GemPlus3", "Value" : 50000 },
+    { "Name" : "GemPlus4", "Value" : 100000 },
+    { "Name" : "GemPlus5", "Value" : 250000 },
+    { "Name" : "GemPlus6", "Value" : 500000 },
+    { "Name" : "GemPlus7", "Value" : 1000000 }
   ]
 }
