@@ -79,27 +79,41 @@ namespace TreasureRoller
                 treasure = treasure.TrimStart();
                 treasure = treasure.ToUpper();
 
-                TreasureType tt = Library.TreasureTypes.Find(x => x.Type == treasure);
-                if(tt!=null)
+                int multiplier = 1;
+                if(treasure.Contains("*"))
                 {
-                    foreach(var row in tt.Row)
+                    string[] adjustments = treasure.Split(new char[] { '*'});
+                    if(adjustments.Length>=2)
                     {
-                        if(rnd.Next(1,101)<=row.Percent)
+                        treasure = adjustments[0];
+                        if (!Int32.TryParse(adjustments[1], out multiplier))
+                            multiplier = 1;
+                    }
+                }
+                for (int i=0; i<multiplier; i++)
+                {
+                    TreasureType tt = Library.TreasureTypes.Find(x => x.Type == treasure);
+                    if (tt != null)
+                    {
+                        foreach (var row in tt.Row)
                         {
-                            int count = 0;
-                            for (int j = 0; j < row.DieCount; j++)
-                                count += (rnd.Next(1, row.DieType + 1) * row.DieMultiplier);
-                            var myTreasure = foundTreasure.FirstOrDefault(o => o.Treasure == row.Treasure);
-                            if(myTreasure!=null)
+                            if (rnd.Next(1, 101) <= row.Percent)
                             {
-                                myTreasure.Count += count;
-                            }
-                            else
-                            {
-                                VisibleTreasure vt = new VisibleTreasure();
-                                vt.Treasure = row.Treasure;
-                                vt.Count = count;
-                                foundTreasure.Add(vt);
+                                int count = 0;
+                                for (int j = 0; j < row.DieCount; j++)
+                                    count += (rnd.Next(1, row.DieType + 1) * row.DieMultiplier);
+                                var myTreasure = foundTreasure.FirstOrDefault(o => o.Treasure == row.Treasure);
+                                if (myTreasure != null)
+                                {
+                                    myTreasure.Count += count;
+                                }
+                                else
+                                {
+                                    VisibleTreasure vt = new VisibleTreasure();
+                                    vt.Treasure = row.Treasure;
+                                    vt.Count = count;
+                                    foundTreasure.Add(vt);
+                                }
                             }
                         }
                     }
