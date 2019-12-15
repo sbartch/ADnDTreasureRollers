@@ -29,5 +29,28 @@
         <ComboBox x:Name="MagicClass" HorizontalAlignment="Left" Margin="164,51,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" ItemsSource="{Binding Path=MyMagicClassList}" DisplayMemberPath="ClassName" SelectedValue="{Binding CategoryInfo}" />
         <Label Content="Class" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.568,0.104" Width="114"/>
         <Button x:Name="ButtonCopyCSV" Content="CSV To Clipboard" HorizontalAlignment="Left" Margin="391,218,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopyCSV_Click"/>
+        <GroupBox x:Name="valueBox" Header="Value Options" HorizontalAlignment="Left" Height="190" Margin="391,23,0,0" VerticalAlignment="Top" Width="254" RenderTransformOrigin="0.492,0.441">
+            <StackPanel HorizontalAlignment="Left"  Margin="0,10,-2,-12" VerticalAlignment="Top" Width="244">
+                <RadioButton x:Name="ingredientsButton" Content="Ingredients Shop" GroupName="ShopValueRange" Checked="IngredientsButton_Checked"/>
+                <RadioButton x:Name="lowEndButton" Content="Low End Shop" GroupName="ShopValueRange" Checked="LowEndButton_Checked"/>
+                <RadioButton x:Name="midRangeButton" Content="Midrange Shop" GroupName="ShopValueRange" Checked="MidRangeButton_Checked"/>
+                <RadioButton x:Name="highEndButton" Content="High End Shop" IsChecked="True" GroupName="ShopValueRange" Checked="HighEndButton_Checked"/>
+                <RadioButton x:Name="arbitraryButton" Content="Arbitrary Value" GroupName="ShopValueRange" Checked="ArbitraryButton_Checked"/>
+                <Grid x:Name="ValuesGrid" IsEnabled="False" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30*"></ColumnDefinition>
+                        <ColumnDefinition Width="70*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="18*"></RowDefinition>
+                        <RowDefinition Height="18*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label  Content="Low Value" Grid.Row="0" Grid.Column="0"/>
+                    <Label  Content="High Value" Grid.Row="1" Grid.Column="0"/>
+                    <TextBox x:Name="lowValueEntry" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center"  Text="0"  Width="100" TextChanged="LowValueEntry_TextChanged"/>
+                    <TextBox x:Name="highValueEntry" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center"  Text="0"  Width="100" TextChanged="HighValueEntry_TextChanged"/>
+                </Grid>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>
