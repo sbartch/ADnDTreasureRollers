@@ -36,8 +36,8 @@ namespace MagicRoller
     public class MagicItem
     {
         public int Class { get; set; }
-        public int LowRoll { get; set; }
-        public int HighRoll { get; set; }
+        public List<int> LowRoll { get; set; }
+        public List<int> HighRoll { get; set; }
         public List<ItemEntry> ItemEntries { get; set; }
     }
 

@@ -131,6 +131,14 @@ namespace GemRoller
                 MyCollection.Add(vg);
                 TotalValue += vg.TotalValue;
             }
+            if(TotalValue>0)
+            {
+                VisibleGems vg = new VisibleGems();
+                vg.GemCount = 1;
+                vg.GemName = "Total Value of Gems Rolled";
+                vg.GemValue = TotalValue;
+                MyCollection.Add(vg);
+            }
         }
         private List<MyGems> ExtraRoll(List<MyGems> gemsList)
         {
@@ -291,7 +299,7 @@ namespace GemRoller
             foreach(var item in gemListView.SelectedItems  )
             {
                 VisibleGems gem = (VisibleGems)item;
-                string sOut = string.Format("{0} X {1} @ {2}gp\n",  gem.GemCount, gem.GemName, gem.GemValue);
+                string sOut = string.Format("{0} X {1} @ {2}gp => {3}gp\n",  gem.GemCount, gem.GemName, gem.GemValue, gem.TotalValue);
                 buffer += sOut;
             }
             Clipboard.SetText(buffer);

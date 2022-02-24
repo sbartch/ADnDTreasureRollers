@@ -89,8 +89,8 @@
   "MagicItems": [
     {
       "Class": 0,
-      "LowRoll": 1,
-      "HighRoll": 20,
+      "LowRoll":  [ 1, 1 ],
+      "HighRoll": [ 50, 35 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -342,8 +342,8 @@
     },
     {
       "Class": 1,
-      "LowRoll": 21,
-      "HighRoll": 35,
+      "LowRoll": [ 51, 36 ],
+      "HighRoll": [ 70, 55],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -525,8 +525,8 @@
     },
     {
       "Class": 2,
-      "LowRoll": 36,
-      "HighRoll": 40,
+      "LowRoll": [ 71, 56 ],
+      "HighRoll": [ 89, 74 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -701,8 +701,8 @@
     },
     {
       "Class": 3,
-      "LowRoll": 41,
-      "HighRoll": 45,
+      "LowRoll": [ 90, 75 ],
+      "HighRoll": [ 90, 77 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -918,8 +918,8 @@
     },
     {
       "Class": 4,
-      "LowRoll": 46,
-      "HighRoll": 48,
+      "LowRoll": [ 91, 77 ],
+      "HighRoll": [ 91, 79 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -1157,8 +1157,8 @@
     },
     {
       "Class": 5,
-      "LowRoll": 49,
-      "HighRoll": 51,
+      "LowRoll": [ 92, 80 ],
+      "HighRoll": [ 92, 82 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -1375,8 +1375,8 @@
     },
     {
       "Class": 6,
-      "LowRoll": 52,
-      "HighRoll": 54,
+      "LowRoll": [ 93, 82 ],
+      "HighRoll": [ 93, 84 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -1613,8 +1613,8 @@
     },
     {
       "Class": 7,
-      "LowRoll": 55,
-      "HighRoll": 57,
+      "LowRoll": [ 94, 85 ],
+      "HighRoll": [ 94, 87 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -1872,8 +1872,8 @@
     },
     {
       "Class": 8,
-      "LowRoll": 58,
-      "HighRoll": 60,
+      "LowRoll": [ 95, 88 ] ,
+      "HighRoll":[95,90],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -2124,8 +2124,8 @@
     },
     {
       "Class": 9,
-      "LowRoll": 61,
-      "HighRoll": 75,
+      "LowRoll": [ 96, 91 ],
+      "HighRoll": [ 97, 95 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -2313,8 +2313,8 @@
     },
     {
       "Class": 10,
-      "LowRoll": 76,
-      "HighRoll": 86,
+      "LowRoll": [ 98, 96 ],
+      "HighRoll": [ 99, 99 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -2502,8 +2502,8 @@
     },
     {
       "Class": 11,
-      "LowRoll": 87,
-      "HighRoll": 100,
+      "LowRoll": [ 100, 100 ],
+      "HighRoll": [ 100, 100 ],
       "ItemEntries": [
         {
           "LowRoll": 1,
@@ -2761,8 +2761,8 @@
     },
     {
       "Class": 12,
-      "LowRoll": -1,
-      "HighRoll": -1,
+      "LowRoll": [ -1, -1 ],
+      "HighRoll":[ -1, -1 ],
       "ItemEntries": [
         {
           "LowRoll": 1,

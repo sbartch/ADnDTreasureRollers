@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GemRoller"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="450" Width="704"
         DataContext="{Binding RelativeSource={RelativeSource Self}}"
         >
 
-    <Grid>
-        <Label x:Name="label" Content="Total Number of Rolls" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Width="149"/>
+    <Grid Margin="0,0,2,0">
+        <Label x:Name="label" Content="Total Number of Rolls" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Width="149" RenderTransformOrigin="0.584,0.577"/>
         <TextBox x:Name="TotalRollCount" HorizontalAlignment="Left" Height="23" Margin="164,23,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="RollMagic" Content="Roll Magic" HorizontalAlignment="Left" Margin="38,138,0,0" VerticalAlignment="Top" Width="109" Height="39" Click="RollMagic_Click"/>
-        <ListView x:Name="magicListView" HorizontalAlignment="Left" Height="134" Margin="38,258,0,0" VerticalAlignment="Top" Width="607" 
+        <ListView x:Name="magicListView" HorizontalAlignment="Left" Height="151" Margin="10,258,0,0" VerticalAlignment="Top" Width="666" 
                   DataContext="{Binding}" ItemsSource="{Binding Path=MyMagicCollection}" SelectionChanged="magicListView_SelectionChanged">
             <ListView.View>
                 <GridView>
@@ -25,11 +25,11 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button x:Name="ButtonCopy" Content="Copy To Clipboard" HorizontalAlignment="Left" Margin="530,218,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopy_Click"/>
-        <ComboBox x:Name="MagicClass" HorizontalAlignment="Left" Margin="164,51,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" ItemsSource="{Binding Path=MyMagicClassList}" DisplayMemberPath="ClassName" SelectedValue="{Binding CategoryInfo}" />
-        <Label Content="Class" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.568,0.104" Width="114"/>
-        <Button x:Name="ButtonCopyCSV" Content="CSV To Clipboard" HorizontalAlignment="Left" Margin="391,218,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopyCSV_Click"/>
-        <GroupBox x:Name="valueBox" Header="Value Options" HorizontalAlignment="Left" Height="190" Margin="391,23,0,0" VerticalAlignment="Top" Width="254" RenderTransformOrigin="0.492,0.441">
+        <Button x:Name="ButtonCopy" Content="Copy To Clipboard" HorizontalAlignment="Left" Margin="561,218,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopy_Click"/>
+        <ComboBox x:Name="MagicClass" HorizontalAlignment="Left" Margin="164,58,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" ItemsSource="{Binding Path=MyMagicClassList}" DisplayMemberPath="ClassName" SelectedValue="{Binding CategoryInfo}" />
+        <Label Content="Class" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.568,0.104" Width="114"/>
+        <Button x:Name="ButtonCopyCSV" Content="CSV To Clipboard" HorizontalAlignment="Left" Margin="425,218,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopyCSV_Click" RenderTransformOrigin="0.8,0.6"/>
+        <GroupBox x:Name="valueBox" Header="Value Options" HorizontalAlignment="Left" Height="190" Margin="422,23,0,0" VerticalAlignment="Top" Width="254" RenderTransformOrigin="0.492,0.441">
             <StackPanel HorizontalAlignment="Left"  Margin="0,10,-2,-12" VerticalAlignment="Top" Width="244">
                 <RadioButton x:Name="ingredientsButton" Content="Ingredients Shop" GroupName="ShopValueRange" Checked="IngredientsButton_Checked"/>
                 <RadioButton x:Name="lowEndButton" Content="Low End Shop" GroupName="ShopValueRange" Checked="LowEndButton_Checked"/>

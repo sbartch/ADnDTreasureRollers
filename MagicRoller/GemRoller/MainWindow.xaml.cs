@@ -279,7 +279,8 @@ namespace MagicRoller
                 while(retVal==-1)
                 {
                     dieRoll = _rnd.Next(1,101);
-                    var testCategory = Library.MagicItems.FirstOrDefault(item => dieRoll>=item.LowRoll && dieRoll<=item.HighRoll );
+                    var lowHighIndex = ((bool)ingredientsButton.IsChecked) ? 0 : 1;
+                    var testCategory = Library.MagicItems.FirstOrDefault(item => dieRoll>=item.LowRoll[lowHighIndex] && dieRoll<=item.HighRoll[lowHighIndex] );
                     if(testCategory!=null)
                     {
                         var value = category.UseClassClasses.FirstOrDefault(item => item.UseClass == testCategory.Class);

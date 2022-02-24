@@ -1,0 +1,28 @@
+{
+    "OutdoorEncounterClass" : [
+        {
+            "Region"  : "Cold Wilderness",
+            "Terrain" : "Mountains",
+            "Creatures" : [
+                {
+                    "Name"      : "Giant, Mountain",
+                    "Frequency" : "Very Rare",
+                    "Power Lvl"  : 12,
+                    "Source"    : "FF"
+                },
+                {
+                    "Name"      : "Giant, Stone",
+                    "Frequency" : "Uncommon",
+                    "Power Lvl" : 9,
+                    "Source"    : "MM"
+                },
+                {
+                    "Name"      : "Giant, Frost",
+                    "Frequency" : "Rare",
+                    "Power Lvl" : 10,
+                    "Source"    : "MM"
+                }
+            ]
+        }
+    ]
+}

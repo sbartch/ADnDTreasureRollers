@@ -1,0 +1,17 @@
+﻿<Window x:Class="EncounterRoller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EncounterRoller"
+        mc:Ignorable="d"
+        Title="Encounter Roller" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="labelTerrain" Content="Terrain" HorizontalAlignment="Left" Margin="37,36,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label x:Name="labelRegion" Content="Region" HorizontalAlignment="Left" Margin="37,67,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label x:Name="labelPower" Content="Power Level" HorizontalAlignment="Left" Margin="412,36,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="labelFrequncy" Content="Frequency" HorizontalAlignment="Left" Margin="412,67,0,0" VerticalAlignment="Top" Width="101"/>
+        <ComboBox x:Name="cbTerrain" ItemsSource="{Binding Path=TerrainList}" HorizontalAlignment="Left" Margin="115,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbRegion" HorizontalAlignment="Left" Margin="115,71,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
