@@ -1,0 +1,30 @@
+{
+    "OutdoorEncounterClasses" : [
+        {
+            "Region"  : "Temperate Wilderness",
+            "Terrain" : "Mountains",
+          "Creatures": [
+            {
+              "Frequency": 
+            }
+            {
+              "Name": "Troll, Giant",
+              "Power Lvl": 8,
+              "Source": "FF"
+            },
+            {
+              "Name": "Giant, Stone",
+              "Frequency": "Uncommon",
+              "Power Lvl": 9,
+              "Source": "MM"
+            },
+            {
+              "Name": "Giant, Fog",
+              "Frequency": "Very Rare",
+              "Power Lvl": 14,
+              "Source": "MM"
+            }
+          ]
+        }
+    ]
+}
