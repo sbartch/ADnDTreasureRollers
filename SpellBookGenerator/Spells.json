@@ -1,0 +1,193 @@
+{
+    "MagicUser": [
+        {
+            "Level": 1,
+            "Spells": []
+        },
+        {
+            "Level": 2,
+            "Spells": []
+        },
+        {
+            "Level": 3,
+            "Spells": []
+        },
+        {
+            "Level": 4,
+            "Spells": []
+        },
+        {
+            "Level": 5,
+            "Spells": []
+        },
+        {
+            "Level": 6,
+            "Spells": []
+        },
+        {
+            "Level": 7,
+            "Spells": []
+        },
+        {
+            "Level": 8,
+            "Spells": []
+        },
+        {
+            "Level": 9,
+            "Spells": []
+        }
+    ],
+    "Cleric": [
+        {
+            "Level": 1,
+            "Spells": [
+                "Bless",
+                "Command",
+                "Create Water",
+                "Cure Light Wounds",
+                "Detect Evil",
+                "Detect Magic",
+                "Light",
+                "Protection From Evil",
+                "Purify Food & Drink",
+                "Remove Fear",
+                "Resist Cold",
+                "Sanctuary"
+            ]
+        },
+        {
+            "Level": 2,
+            "Spells": [
+                "Augury",
+                "Chant",
+                "Detect Charm",
+                "Find Traps",
+                "Hold Person",
+                "Know Alignment",
+                "Resist Fire",
+                "Silence 15' Radius",
+                "Slow Poison",
+                "Snake Charm",
+                "Speak With Animals",
+                "Spiritual Hammer"
+            ]
+        },
+        {
+            "Level": 3,
+            "Spells": [
+                "Animate Dead",
+                "Continual Light",
+                "Create Food & Water",
+                "Cure Blindness",
+                "Cure Disease",
+                "Dispel Magic",
+                "Feign Death",
+                "Glyph Of Warding",
+                "Locate Object",
+                "Prayer",
+                "Remove Curse",
+                "Speak With Dead"
+            ]
+        },
+        {
+            "Level": 4,
+            "Spells": []
+        },
+        {
+            "Level": 5,
+            "Spells": []
+        },
+        {
+            "Level": 6,
+            "Spells": []
+        },
+        {
+            "Level": 7,
+            "Spells": []
+        },
+        {
+            "Level": 8,
+            "Spells": []
+        },
+        {
+            "Level": 9,
+            "Spells": []
+        }
+    ],
+    "Illusionist": [
+        {
+            "Level": 1,
+            "Spells": []
+        },
+        {
+            "Level": 2,
+            "Spells": []
+        },
+        {
+            "Level": 3,
+            "Spells": []
+        },
+        {
+            "Level": 4,
+            "Spells": []
+        },
+        {
+            "Level": 5,
+            "Spells": []
+        },
+        {
+            "Level": 6,
+            "Spells": []
+        },
+        {
+            "Level": 7,
+            "Spells": []
+        },
+        {
+            "Level": 8,
+            "Spells": []
+        },
+        {
+            "Level": 9,
+            "Spells": []
+        }
+    ],
+    "Druid": [
+        {
+            "Level": 1,
+            "Spells": []
+        },
+        {
+            "Level": 2,
+            "Spells": []
+        },
+        {
+            "Level": 3,
+            "Spells": []
+        },
+        {
+            "Level": 4,
+            "Spells": []
+        },
+        {
+            "Level": 5,
+            "Spells": []
+        },
+        {
+            "Level": 6,
+            "Spells": []
+        },
+        {
+            "Level": 7,
+            "Spells": []
+        },
+        {
+            "Level": 8,
+            "Spells": []
+        },
+        {
+            "Level": 9,
+            "Spells": []
+        }
+    ]
+}

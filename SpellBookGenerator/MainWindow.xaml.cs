@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,16 +15,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace SpellBookGenerator
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        SpellLibrary _library;
+
+        SpellLibrary Library { get => _library; set => _library = value; }
+
+    public MainWindow()
         {
             InitializeComponent();
+            Library = JsonConvert.DeserializeObject<SpellLibrary>(File.ReadAllText("Spells.json"));
         }
     }
 }
