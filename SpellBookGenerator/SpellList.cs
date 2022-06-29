@@ -6,22 +6,20 @@ using System.Threading.Tasks;
 
 namespace SpellBookGenerator
 {
-    public enum SpellClass
-    { Offense=0, Defense, Other }
-
-    public class Spell
+    public class Root
     {
-        public string Name { get; set; }
-        public SpellClass Classification { get; set; }
-    }
-    public class SpellList
-    {
-        public int Level { get; set; }
-        public List<Spell> Spells { get; set; }
+        public List<SpellLibrary> SpellLibrary { get; set; }
     }
 
     public class SpellLibrary
     {
-        public List<SpellList> SpellLists { get; set; }
+        public string Name { get; set; }
+        public List<SpellList> SpellList { get; set; }
+    }
+
+    public class SpellList
+    {
+        public int Level { get; set; }
+        public List<string> Spells { get; set; }
     }
 }
