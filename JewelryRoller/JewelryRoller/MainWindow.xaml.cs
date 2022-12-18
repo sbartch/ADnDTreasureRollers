@@ -24,8 +24,32 @@ namespace JewelryRoller
     /// </summary>
     public partial class MainWindow : Window
     {
+        private float _totalValue = 0;
+        private int _jewelryCount = 0;
+
         public ObservableCollection<VisibleJewelry> _myCollection = new ObservableCollection<VisibleJewelry>();
         public ObservableCollection<VisibleJewelry> MyCollection { get { return _myCollection; } set { _myCollection = value; OnPropertyChanged("MyCollection"); } }
+
+        public float TotalValue
+        {
+            get { return _totalValue; }
+            set
+            {
+                _totalValue = value;
+                totalValuelbl.Content = "Value: " + _totalValue.ToString() + " gp";
+            }
+        }
+
+        public int JewelryCount
+        {
+            get { return _jewelryCount; }
+            set
+            {
+                _jewelryCount = value;
+                totalJewelryCountlbl.Content = "Total Jewelry: " + _jewelryCount;
+            }
+        }
+
 
         private JewelryLibrary _library;
         public JewelryLibrary Library { get => _library; set => _library = value; }
@@ -45,6 +69,9 @@ namespace JewelryRoller
             Random rnd = new Random();
             MyCollection.Clear();
             List<MyJewelry> myJewelryList = new List<MyJewelry>();
+
+            TotalValue = 0;
+            JewelryCount = 0;
 
             int totalJewelry = 0;
             Int32.TryParse(TotalJewelryCount.Text, out totalJewelry);
@@ -85,6 +112,8 @@ namespace JewelryRoller
                         newJewelry.Count = 1;
                         myJewelryList.Add(newJewelry);
                     }
+                    JewelryCount++;
+                    TotalValue += value;
                 }
             }
             foreach(var jewelrySet in myJewelryList)

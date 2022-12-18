@@ -4,7 +4,6 @@ C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\bin\Debug\net
 C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\bin\Debug\netcoreapp3.1\SpellBookGenerator.runtimeconfig.dev.json
 C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\bin\Debug\netcoreapp3.1\SpellBookGenerator.dll
 C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\bin\Debug\netcoreapp3.1\SpellBookGenerator.pdb
-C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\obj\Debug\netcoreapp3.1\SpellBookGenerator.csproj.AssemblyReference.cache
 C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Projects\GitRepositories\ADnDTreasureRollers\SpellBookGenerator\obj\Debug\netcoreapp3.1\SpellBookGenerator_MarkupCompile.cache

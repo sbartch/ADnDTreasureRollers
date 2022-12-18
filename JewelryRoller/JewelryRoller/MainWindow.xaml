@@ -45,6 +45,8 @@
         </ListView>
         <Button x:Name="ButtonCopy" Content="Copy To Clipboard" HorizontalAlignment="Left" Margin="311,116,0,0" VerticalAlignment="Top" Width="115" Height="35" IsEnabled="False" Click="ButtonCopy_Click" Grid.Column="1" RenderTransformOrigin="0.474,-2.46"/>
         <Label x:Name="label1" Content="* Average value of all Jewelry of this type" HorizontalAlignment="Left" Margin="73,387,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="572"/>
+        <Label x:Name="totalValuelbl" Content="Total Value: 0 gp" HorizontalAlignment="Left" Height="28" Margin="153,123,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1"/>
+        <Label x:Name="totalJewelryCountlbl" Content="Total Jewelry: 0" HorizontalAlignment="Left" Height="28" Margin="194,123,0,0" VerticalAlignment="Top" Width="126" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

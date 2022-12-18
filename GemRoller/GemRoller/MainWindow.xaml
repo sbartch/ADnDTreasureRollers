@@ -40,8 +40,8 @@
                     </GridView>
                 </ListView.View>
             </ListView>
-            <Label x:Name="totalValuelbl" Content="Total Value: 0 gp" HorizontalAlignment="Left" Height="24" Margin="219,21,0,0" Grid.Row="1" VerticalAlignment="Top" Width="126"/>
-            <Label x:Name="totalGemCountlbl" Content="Total Gems: 0" HorizontalAlignment="Left" Height="24" Margin="372,21,0,0" Grid.Row="1" VerticalAlignment="Top" Width="126" Grid.ColumnSpan="2"/>
+            <Label x:Name="totalValuelbl" Content="Total Value: 0 gp" HorizontalAlignment="Left" Height="28" Margin="219,21,0,0" Grid.Row="1" VerticalAlignment="Top" Width="126"/>
+            <Label x:Name="totalGemCountlbl" Content="Total Gems: 0" HorizontalAlignment="Left" Height="28" Margin="372,21,0,0" Grid.Row="1" VerticalAlignment="Top" Width="126" Grid.ColumnSpan="2"/>
         </Grid>
     </Grid>
 </Window>

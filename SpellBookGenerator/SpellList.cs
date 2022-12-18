@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace SpellBookGenerator
 {
-    public class Root
+
+    public class MasterLibrary
     {
-        public List<SpellLibrary> SpellLibrary { get; set; }
+        public string Name { get; set; }
+        public List<SpellList> SpellList { get; set; }
     }
 
     public class SpellLibrary
     {
-        public string Name { get; set; }
-        public List<SpellList> SpellList { get; set; }
+        public List<MasterLibrary> MasterLibrary { get; set; }
     }
 
     public class SpellList
